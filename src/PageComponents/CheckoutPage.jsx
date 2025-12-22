@@ -136,7 +136,7 @@ const CheckoutPage = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-teal-600 focus:border-transparent bg-white"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-teal-600 focus:border-transparent bg-white text-gray-900"
                     required
                   />
                 </div>
@@ -152,7 +152,7 @@ const CheckoutPage = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                       required
                     />
                   </div>
@@ -165,7 +165,7 @@ const CheckoutPage = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                       required
                     />
                   </div>
@@ -181,7 +181,7 @@ const CheckoutPage = () => {
                     name="address"
                     value={formData.address}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                     required
                   />
                 </div>
@@ -197,7 +197,7 @@ const CheckoutPage = () => {
                       name="city"
                       value={formData.city}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                       required
                     />
                   </div>
@@ -210,7 +210,7 @@ const CheckoutPage = () => {
                       name="state"
                       value={formData.state}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                       required
                     />
                   </div>
@@ -223,7 +223,7 @@ const CheckoutPage = () => {
                       name="zipCode"
                       value={formData.zipCode}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                       required
                     />
                   </div>
@@ -239,7 +239,7 @@ const CheckoutPage = () => {
                     value={formData.notes}
                     onChange={handleInputChange}
                     rows="3"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-gray-900"
                     placeholder="Any special instructions or requests..."
                   />
                 </div>
@@ -250,7 +250,7 @@ const CheckoutPage = () => {
                     Payment Method *
                   </label>
                   <div className="space-y-2">
-                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors bg-white">
                       <input
                         type="radio"
                         name="paymentMethod"
@@ -260,9 +260,9 @@ const CheckoutPage = () => {
                         className="w-4 h-4 text-blue-600"
                       />
                       <CreditCard className="w-5 h-5 ml-3 mr-2 text-gray-600" />
-                      <span className="font-medium">Pay with Credit Card</span>
+                      <span className="font-medium text-gray-900">Pay with Credit Card</span>
                     </label>
-                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors bg-white">
                       <input
                         type="radio"
                         name="paymentMethod"
@@ -272,7 +272,7 @@ const CheckoutPage = () => {
                         className="w-4 h-4 text-blue-600"
                       />
                       <Building2 className="w-5 h-5 ml-3 mr-2 text-gray-600" />
-                      <span className="font-medium">Pay with Bank Transfer</span>
+                      <span className="font-medium text-gray-900">Pay with Bank Transfer</span>
                     </label>
                   </div>
                   <p className="mt-2 text-sm text-gray-500">
@@ -307,7 +307,7 @@ const CheckoutPage = () => {
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-sm font-medium line-clamp-2">{item.name}</h3>
+                      <h3 className="text-sm font-medium line-clamp-2 text-gray-900">{item.name}</h3>
                       <p className="text-sm text-gray-500">Qty: {item.quantity}</p>
                       <p className="text-sm font-semibold text-blue-600">
                         ${(parseFloat(item.price) * item.quantity).toFixed(2)}
@@ -324,7 +324,7 @@ const CheckoutPage = () => {
                   <span>${getCartTotal().toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg pt-2 border-t-2">
-                  <span>Total:</span>
+                  <span className="text-gray-900">Total:</span>
                   <span className="text-blue-600">${getCartTotal().toFixed(2)} USD</span>
                 </div>
               </div>
@@ -333,7 +333,7 @@ const CheckoutPage = () => {
               <button
                 onClick={handlePlaceOrder}
                 disabled={loading}
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-4 rounded-md font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-teal-600 to-teal-700 text-white py-3 px-4 rounded-md font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {loading ? (
                   <>
