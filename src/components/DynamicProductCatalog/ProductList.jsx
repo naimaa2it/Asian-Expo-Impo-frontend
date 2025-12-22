@@ -2,10 +2,16 @@
 
 import React, { useState } from "react";
 import { useNavigate } from "@/lib/navigation";
+import { useCart } from "@/context/CartContext";
+import { ShoppingCart } from "lucide-react";
 
 const ProductList = ({ category, subcategory, selectedBrand }) => {
   const [showAllProducts, setShowAllProducts] = useState(false);
   const navigate = useNavigate();
+  const { addToCart } = useCart();
+
+  // Get category name from the category object
+  const categoryName = category?.name || "General";
 
   // Filter products by selected brand
   const filteredProducts = selectedBrand
@@ -13,6 +19,21 @@ const ProductList = ({ category, subcategory, selectedBrand }) => {
         (product) => product.keyAttributes?.["Brand"] === selectedBrand
       )
     : subcategory.products || [];
+
+  // Handle add to cart
+  const handleAddToCart = (product) => {
+    const priceStr = product.offerPrice || product.price || "0";
+    const priceNum = parseFloat(priceStr.replace(/[^0-9.]/g, ""));
+    
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: priceNum,
+      quantity: 1,
+      image: product.image,
+      category: categoryName,
+    });
+  };
 
   // Determine how many products to show initially
   const initialProductsCount = 3;
@@ -113,9 +134,11 @@ const ProductList = ({ category, subcategory, selectedBrand }) => {
                     </button>
                     
                     <button
-                      className="flex-1 bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-md text-sm font-medium transition-colors"
+                      onClick={() => handleAddToCart(product)}
+                      className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-2 rounded-md text-sm font-medium transition-all shadow-sm hover:shadow-md flex items-center justify-center gap-1"
                     >
-                      Add To Cart
+                      <ShoppingCart className="w-4 h-4" />
+                      Add to Cart
                     </button>
                   </div>
                 </div>

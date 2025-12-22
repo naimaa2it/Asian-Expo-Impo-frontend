@@ -11,7 +11,9 @@ import {
   FaRegStar,
   FaStarHalfAlt,
 } from "react-icons/fa";
+import { ShoppingCart } from "lucide-react";
 import ContactModal from "../shared/Modal/ContactModal";
+import { useCart } from "@/context/CartContext";
 
 // Helper functions for recommended products
 const parsePrice = (priceStr) => {
@@ -260,6 +262,7 @@ const ProductDetails = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const productFromState = location.state?.product;
+  const { addToCart } = useCart();
 
   const [product, setProduct] = useState(productFromState || null);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -269,6 +272,7 @@ const ProductDetails = () => {
   const [recommendedProducts, setRecommendedProducts] = useState([]);
   const [allProducts, setAllProducts] = useState([]);
   const [isTyre, setIsTyre] = useState(false);
+  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     // Load product data
@@ -276,9 +280,15 @@ const ProductDetails = () => {
       fetch("/categories.json")
         .then((res) => res.json())
         .then((data) => {
+          // Flatten products while preserving category information
           const allProducts = data.flatMap(
             (cat) =>
-              cat.subcategories?.flatMap((sub) => sub.products || []) || []
+              cat.subcategories?.flatMap((sub) => 
+                (sub.products || []).map(product => ({
+                  ...product,
+                  categoryName: cat.name
+                }))
+              ) || []
           );
           const foundProduct = allProducts.find(
             (p) => String(p.id) === String(id)
@@ -313,9 +323,15 @@ const ProductDetails = () => {
       fetch("/categories.json")
         .then((res) => res.json())
         .then((data) => {
+          // Flatten products while preserving category information
           const allProducts = data.flatMap(
             (cat) =>
-              cat.subcategories?.flatMap((sub) => sub.products || []) || []
+              cat.subcategories?.flatMap((sub) => 
+                (sub.products || []).map(product => ({
+                  ...product,
+                  categoryName: cat.name
+                }))
+              ) || []
           );
           setAllProducts(allProducts);
         })
@@ -595,6 +611,53 @@ const ProductDetails = () => {
                 MOQ: {product.keyAttributes.MOQ}
               </p>
             )}
+
+            {/* Quantity Selector */}
+            <div className="mb-4">
+              <label className="text-gray-600 text-sm mb-2 block">Quantity:</label>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                  className="p-2 bg-gray-200 hover:bg-gray-300 rounded-md transition-colors"
+                >
+                  <FaMinus className="w-4 h-4" />
+                </button>
+                <input
+                  type="number"
+                  value={quantity}
+                  onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
+                  className="w-20 text-center border border-gray-300 rounded-md px-3 py-2"
+                  min="1"
+                />
+                <button
+                  onClick={() => setQuantity(quantity + 1)}
+                  className="p-2 bg-gray-200 hover:bg-gray-300 rounded-md transition-colors"
+                >
+                  <FaPlus className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+
+            {/* Add to Cart Button */}
+            <button
+              onClick={() => {
+                const priceStr = product.offerPrice || product.price || "0";
+                const priceNum = parseFloat(priceStr.replace(/[^0-9.]/g, ""));
+                
+                addToCart({
+                  id: product.id,
+                  name: product.name,
+                  price: priceNum,
+                  quantity: quantity,
+                  image: product.image,
+                  category: product.categoryName || "General",
+                });
+              }}
+              className="block w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-lg mb-3 flex items-center justify-center gap-2"
+            >
+              <ShoppingCart className="w-5 h-5" />
+              Add to Cart
+            </button>
 
             <button
               onClick={() => setShowContactModal(true)}

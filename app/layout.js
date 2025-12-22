@@ -3,6 +3,9 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import FloatingWhatsApp from "@/components/shared/FloatingWhatsApp";
+import FloatingCartButton from "@/components/Cart/FloatingCartButton";
+import CartSidebar from "@/components/Cart/CartSidebar";
+import { CartProvider } from "@/context/CartContext";
 import "./globals.css";
 
 export const metadata = {
@@ -82,16 +85,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Toaster position="top-center" reverseOrder={false} />
-        <Navbar />
-        <Suspense fallback={<div className="flex justify-center items-center min-h-screen"><div className="loading loading-spinner loading-lg"></div></div>}>
-          <main>{children}</main>
-        </Suspense>
-        <Footer />
-        <FloatingWhatsApp
-          phoneNumber="14379003996"
-          message="Hello! How can I help you?"
-        />
+        <CartProvider>
+          <Toaster position="top-center" reverseOrder={false} />
+          <Navbar />
+          <Suspense fallback={<div className="flex justify-center items-center min-h-screen"><div className="loading loading-spinner loading-lg"></div></div>}>
+            <main>{children}</main>
+          </Suspense>
+          <Footer />
+          <FloatingWhatsApp
+            phoneNumber="14379003996"
+            message="Hello! How can I help you?"
+          />
+          <FloatingCartButton />
+          <CartSidebar />
+        </CartProvider>
       </body>
     </html>
   );
