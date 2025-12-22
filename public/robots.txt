@@ -1,0 +1,9 @@
+# Asian Import Export Co Robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://asianimportexport.com/sitemap.xml
