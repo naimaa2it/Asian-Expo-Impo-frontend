@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa";
 import { ShoppingCart } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import ContainerLoadingCapacity from "./ContainerLoadingCapacity";
 
 // Helper functions for recommended products
 const parsePrice = (priceStr) => {
@@ -541,13 +542,15 @@ const ProductDetails = () => {
                 <p className="text-gray-700 text-sm">{product.description}</p>
 
                 {/* Conditional Shipping Text */}
-                <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg mb-2">
                   <p className="text-sm text-blue-800 font-medium">
                     {isTyre
                       ? "🚚 No shipping cost inside USA for tyres"
                       : "📦 Shipping cost will be calculated based on your area"}
                   </p>
                 </div>
+
+                <ContainerLoadingCapacity />
               </div>
             )}
           </div>
