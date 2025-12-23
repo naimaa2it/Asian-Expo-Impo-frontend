@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ProductCatalog from "@/components/DynamicProductCatalog/ProductCatalog";
 import Banner from "@/components/Home/Banner";
 import ServicesSection from "@/components/Home/ServicesSection";
@@ -48,7 +49,9 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <ProductCatalog isHomePage={true} />
+      <Suspense fallback={<div className="flex justify-center items-center h-screen">Loading products...</div>}>
+        <ProductCatalog isHomePage={true} />
+      </Suspense>
       <ServicesSection />
       <WhyChooseUs />
     </>

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ProductCatalog from "@/components/DynamicProductCatalog/ProductCatalog";
 import fs from 'fs';
 import path from 'path';
@@ -39,5 +40,9 @@ export async function generateStaticParams() {
 }
 
 export default function ProductsCategoryPage() {
-  return <ProductCatalog />;
+  return (
+    <Suspense fallback={<div className="flex justify-center items-center h-screen">Loading products...</div>}>
+      <ProductCatalog />
+    </Suspense>
+  );
 }
