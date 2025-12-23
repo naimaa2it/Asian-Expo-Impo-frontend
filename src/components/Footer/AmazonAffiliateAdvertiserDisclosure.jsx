@@ -36,7 +36,7 @@ const AmazonAffiliateAdvertiserDisclosure = () => {
 
             <p className="text-gray-700 leading-relaxed mb-6 text-lg">
               <span className="font-semibold text-gray-900">
-                https://asianimportexport.com
+                asianimportexport.com
               </span>{" "}
               is a participant in the Amazon Services LLC Associates Program, an
               affiliate advertising program designed to provide a means for
