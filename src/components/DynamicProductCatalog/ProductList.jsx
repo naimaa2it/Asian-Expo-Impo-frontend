@@ -92,10 +92,10 @@ const ProductList = ({ category, subcategory, selectedBrand, isHomePage = false 
 
                 {/* Only show brand and size for cart view */}
                 <div className="mb-3 space-y-1">
-                  {product.keyAttributes?.["Brand"] && (
+                  {product.keyAttributes?.["MOQ"] && (
                     <p className="text-sm text-gray-600">
-                      <span className="font-medium">Brand:</span>{" "}
-                      {product.keyAttributes["Brand"]}
+                      <span className="font-medium">MOQ:</span>{" "}
+                      {product.keyAttributes["MOQ"]}
                     </p>
                   )}
                   {product.keyAttributes?.Size && (

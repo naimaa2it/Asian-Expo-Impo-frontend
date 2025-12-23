@@ -10,11 +10,36 @@ const ContainerLoadingCapacity = () => {
   // Only one object with all model names combined
   const tableData = [
     {
-      modelName: '11R 22.5, 295/75R22.5, 295/80R22.5, 275/70R22.5, 315/80R22.5',
+      modelName: '11R 22.5',
+      ft40: '280 pieces - $275',
+      ft20: '160 pieces - $155',
+      leadTime: '28-35 days'
+    },
+    {
+      modelName: '295/75R22.5',
+      ft40: '280 pieces - $275',
+      ft20: '160 pieces - $155',
+      leadTime: '28-35 days'
+    },
+    {
+      modelName: '295/80R22.5',
+      ft40: '280 pieces - $275',
+      ft20: '160 pieces - $155',
+      leadTime: '28-35 days'
+    },
+    {
+      modelName: '275/70R22.5',
+      ft40: '280 pieces - $275',
+      ft20: '160 pieces - $155',
+      leadTime: '28-35 days'
+    },
+    {
+      modelName: '315/80R22.5',
       ft40: '280 pieces - $275',
       ft20: '160 pieces - $155',
       leadTime: '28-35 days'
     }
+    
   ];
 
   return (
@@ -57,16 +82,16 @@ const ContainerLoadingCapacity = () => {
           <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-2 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
                   Model Name
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-2 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
                   40FT
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-2 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
                   20FT
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-2 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">
                   Lead Time
                 </th>
               </tr>
@@ -74,16 +99,16 @@ const ContainerLoadingCapacity = () => {
             <tbody className="bg-white divide-y divide-gray-200">
               {tableData.map((item, index) => (
                 <tr key={index} className="hover:bg-gray-50 transition-colors">
-                  <td className="px-6 py-4 text-sm font-medium text-gray-900">
+                  <td className="px-6 py-2 text-sm font-medium text-gray-900">
                     {item.modelName}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
+                  <td className="px-6 py-2 whitespace-nowrap text-sm text-gray-700">
                     {item.ft40}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
+                  <td className="px-6 py-2 whitespace-nowrap text-sm text-gray-700">
                     {item.ft20}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
+                  <td className="px-6 py-2 whitespace-nowrap text-sm text-gray-700">
                     {item.leadTime}
                   </td>
                 </tr>
