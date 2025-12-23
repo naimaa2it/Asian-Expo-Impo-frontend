@@ -598,7 +598,7 @@ const ProductDetails = () => {
             )}
 
             {product.keyAttributes?.MOQ && (
-              <p className="text-gray-600 text-sm mb-4">
+              <p className="text-gray-600 font-bold text-sm mb-4">
                 MOQ: {product.keyAttributes.MOQ}
               </p>
             )}
