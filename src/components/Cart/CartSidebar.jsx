@@ -173,14 +173,26 @@ const CartSidebar = () => {
                 </div>
               )}
 
-              {/* WhatsApp Contact Button (shows ABOVE proceed button when mixed categories) */}
+              {/* WhatsApp Contact Button */}
               {validation.showWhatsApp && (
                 <button
                   onClick={() => {
-                    const whatsappNumber = '14379003996'; // Replace with your number
-                    const message = encodeURIComponent(
-                      'Hello, I would like to place a custom order with multiple categories.'
-                    );
+                    const whatsappNumber = '14379003996';
+                    let message = '';
+                    
+                    if (validation.categoryMOQ && validation.currentQuantity < validation.categoryMOQ) {
+                      // User has less than MOQ for a single category
+                      const unit = validation.moqUnit || 'units';
+                      message = encodeURIComponent(
+                        `Hello, I would like to place a custom order. I have ${validation.currentQuantity} ${unit} in my cart but the minimum order quantity is ${validation.categoryMOQ} ${unit}.`
+                      );
+                    } else {
+                      // User has multiple categories
+                      message = encodeURIComponent(
+                        'Hello, I would like to place a custom order with multiple categories.'
+                      );
+                    }
+                    
                     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
                   }}
                   className="w-full mb-3 flex items-center justify-center gap-2 bg-green-500 text-white py-3 px-4 rounded-md hover:bg-green-600 transition-colors font-semibold shadow-md"

@@ -25,6 +25,19 @@ const ProductList = ({ category, subcategory, selectedBrand, isHomePage = false 
     const priceStr = product.offerPrice || product.price || "0";
     const priceNum = parseFloat(priceStr.replace(/[^0-9.]/g, ""));
     
+    // Extract MOQ from product attributes with unit
+    let moqValue = 50;
+    let moqUnit = "units";
+    if (product.keyAttributes && product.keyAttributes.MOQ) {
+      const moqStr = product.keyAttributes.MOQ;
+      // Match number and unit (e.g., "100 Tons", "50 tires", "5 Tons")
+      const moqMatch = moqStr.match(/(\d+)\s*([a-zA-Z]+)/);
+      if (moqMatch) {
+        moqValue = parseInt(moqMatch[1]);
+        moqUnit = moqMatch[2]; // e.g., "Tons", "tires", etc.
+      }
+    }
+    
     addToCart({
       id: product.id,
       name: product.name,
@@ -32,6 +45,8 @@ const ProductList = ({ category, subcategory, selectedBrand, isHomePage = false 
       quantity: 1,
       image: product.image,
       category: categoryName,
+      moq: moqValue,
+      moqUnit: moqUnit,
     });
   };
 

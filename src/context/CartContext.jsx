@@ -118,16 +118,26 @@ export const CartProvider = ({ children }) => {
     if (categories.length > 1) {
       return {
         canProceed: false,
-        message: 'Multiple categories detected. For custom orders with mixed categories, please contact us through WhatsApp.',
+        message: 'Multiple categories detected.',
         showWhatsApp: true,
       };
     }
 
-    // Check minimum quantity (50 units total)
-    if (totalQuantity < 50) {
+    // Get the MOQ for the current category (from first item)
+    const firstItem = cart[0];
+    const categoryMOQ = firstItem?.moq || 50;
+    const moqUnit = firstItem?.moqUnit || 'units';
+
+    // Check minimum quantity based on category MOQ
+    if (totalQuantity < categoryMOQ) {
+      const remaining = categoryMOQ - totalQuantity;
       return {
         canProceed: false,
-        message: `Minimum order quantity is 50 units. You have ${totalQuantity} items in cart. Please add ${50 - totalQuantity} more items.`,
+        message: `Minimum order quantity is ${categoryMOQ} ${moqUnit}. You have ${totalQuantity} ${moqUnit} in cart. Please add ${remaining} more ${moqUnit}.`,
+        showWhatsApp: true,
+        categoryMOQ: categoryMOQ,
+        moqUnit: moqUnit,
+        currentQuantity: totalQuantity,
       };
     }
 

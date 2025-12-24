@@ -642,6 +642,19 @@ const ProductDetails = () => {
                 const priceStr = product.offerPrice || product.price || "0";
                 const priceNum = parseFloat(priceStr.replace(/[^0-9.]/g, ""));
                 
+                // Extract MOQ from product attributes with unit
+                let moqValue = 50;
+                let moqUnit = "units";
+                if (product.keyAttributes && product.keyAttributes.MOQ) {
+                  const moqStr = product.keyAttributes.MOQ;
+                  // Match number and unit (e.g., "100 Tons", "50 tires", "5 Tons")
+                  const moqMatch = moqStr.match(/(\d+)\s*([a-zA-Z]+)/);
+                  if (moqMatch) {
+                    moqValue = parseInt(moqMatch[1]);
+                    moqUnit = moqMatch[2]; // e.g., "Tons", "tires", etc.
+                  }
+                }
+                
                 addToCart({
                   id: product.id,
                   name: product.name,
@@ -649,6 +662,8 @@ const ProductDetails = () => {
                   quantity: quantity,
                   image: product.image,
                   category: product.categoryName || "General",
+                  moq: moqValue,
+                  moqUnit: moqUnit,
                 });
               }}
               className="block w-full border border-cyan-700  hover:bg-teal-600 hover:text-white  text-cyan-600 px-6 py-2 rounded-sm transition-all shadow-md hover:shadow-lg mb-3 flex items-center justify-center gap-2"
