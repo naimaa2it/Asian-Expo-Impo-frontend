@@ -363,7 +363,7 @@ const Navbar = () => {
                   </span>
                 )}
               </div>
-           </button>
+            </button>
 
             <Link
               to="/aboutUs"
