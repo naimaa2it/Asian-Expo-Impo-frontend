@@ -565,7 +565,7 @@ const ProductDetails = () => {
               {/* Updated Price Display */}
               {product.price && product.offerPrice ? (
                 <>
-                  <p className="text-gray-900 text-lg">Price Range:</p>
+                  <p className="text-gray-900 text-lg">Price : </p>
                   <div className="flex items-center gap-2">
                     <p className="font-bold text-2xl text-amber-600">
                       {product.offerPrice}

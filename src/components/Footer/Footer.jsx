@@ -34,6 +34,11 @@ const Footer = () => {
 
   const contactInfo = [
     {
+      icon: <FaMapMarkerAlt className="text-amber-400" />,
+      text: "63/16 Soi Chumchon Talat Tha Ruea Khlong Toei Khwaeng Khlong Toei, Khet Khlong Toei Krung Thep Maha Nakhon 10110, Thailand",
+      link: "#",
+    },
+    {
       icon: <FaPhone className="text-amber-400" />,
       text: "+14379003996",
       link: "tel:",
@@ -42,11 +47,6 @@ const Footer = () => {
       icon: <FaEnvelope className="text-amber-400" />,
       text: " info@asianimportexport.com",
       link: "mailto: info@asianimportexport.com",
-    },
-    {
-      icon: <FaMapMarkerAlt className="text-amber-400" />,
-      text: "63/16 Soi Chumchon Talat Tha Ruea Khlong Toei Khwaeng Khlong Toei, Khet Khlong Toei Krung Thep Maha Nakhon 10110, Thailand",
-      link: "#",
     },
   ];
 
@@ -90,11 +90,7 @@ const Footer = () => {
               className="h-12 w-auto mr-3"
             />
           </div>
-          <p className="text-gray-300 mb-6 leading-relaxed">
-            We are one of the registered leading Import & export/supply of all
-            kinds of Food, Raw Jute, Finished Jute Goods and Agro based products
-            on international Marketplace as an exporter since 2017.
-          </p>
+
 
           {/* Contact Information */}
           <div className="space-y-3">
