@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <ProductCatalog />
+      <ProductCatalog isHomePage={true} />
       <ServicesSection />
       <WhyChooseUs />
     </>

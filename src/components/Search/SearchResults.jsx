@@ -4,17 +4,23 @@
 import React, { useState, useEffect, Suspense } from "react";
 import { useLocation, useNavigate } from "@/lib/navigation";
 import ProductList from "../DynamicProductCatalog/ProductList";
+import SearchSuggestion from "./SearchSuggestion.jsx";
 
 const SearchResultsContent = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
+  const [inputValue, setInputValue] = useState("");
+  const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [categories, setCategories] = useState([]);
   const location = useLocation();
   const navigate = useNavigate();
 
   useEffect(() => {
     const query = new URLSearchParams(location.search).get("q") || "";
     setSearchQuery(query);
+    setInputValue(query);
 
     if (query) {
       performSearch(query);
@@ -22,6 +28,20 @@ const SearchResultsContent = () => {
       setLoading(false);
     }
   }, [location.search]);
+
+  // Fetch categories once for suggestions
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const response = await fetch("/categories.json");
+        const data = await response.json();
+        setCategories(data);
+      } catch (error) {
+        console.error("Error fetching categories:", error);
+      }
+    };
+    fetchCategories();
+  }, []);
 
   const performSearch = async (query) => {
     try {
@@ -64,12 +84,57 @@ const SearchResultsContent = () => {
 
   const handleNewSearch = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const newQuery = formData.get("search").trim();
+    const newQuery = inputValue.trim();
 
     if (newQuery) {
+      setShowSuggestions(false);
       navigate(`/search?q=${encodeURIComponent(newQuery)}`);
     }
+  };
+
+  const handleSearchInputChange = (e) => {
+    const query = e.target.value;
+    setInputValue(query);
+
+    if (query.trim() === "") {
+      setSearchSuggestions([]);
+      setShowSuggestions(false);
+      return;
+    }
+
+    // Flatten all products from all categories and subcategories
+    const allProducts = categories.flatMap((category) =>
+      (category.subcategories || []).flatMap((subcategory) =>
+        (subcategory.products || []).map((product) => ({
+          ...product,
+          category: category.name,
+          subcategory: subcategory.name,
+        }))
+      )
+    );
+
+    // Filter products based on search query
+    const results = allProducts.filter((product) => {
+      const searchTerms = query.toLowerCase().split(" ");
+      const productText = `
+        ${product.name} 
+        ${product.keyAttributes?.["Brand"] || ""} 
+        ${product.keyAttributes?.Size || ""} 
+        ${product.keyAttributes?.Pattern || ""}
+        ${product.description || ""}
+      `.toLowerCase();
+
+      return searchTerms.every((term) => productText.includes(term));
+    });
+
+    setSearchSuggestions(results.slice(0, 5)); // Show top 5 suggestions
+    setShowSuggestions(true);
+  };
+
+  const handleSuggestionClick = (suggestion) => {
+    setShowSuggestions(false);
+    setInputValue("");
+    navigate(`/product/${suggestion.id}`);
   };
 
   if (loading) {
@@ -88,22 +153,24 @@ const SearchResultsContent = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* Search Header */}
         <div className="mb-8">
-          <form onSubmit={handleNewSearch} className="max-w-2xl mx-auto">
-            <div className="relative flex items-center">
+          <form onSubmit={handleNewSearch} className="max-w-2xl mx-auto relative">
+            <div className="relative">
               <input
                 type="text"
-                name="search"
+                value={inputValue}
+                onChange={handleSearchInputChange}
+                onFocus={() => inputValue && setShowSuggestions(true)}
+                onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
                 placeholder="Search products, brands, categories..."
-                defaultValue={searchQuery}
                 className="w-full px-6 py-4 pr-12 border border-gray-300 bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent shadow-sm text-teal-800"
               />
               <button
                 type="submit"
-                className="absolute right-2 bg-teal-600 text-white p-2 rounded-full hover:bg-teal-700 transition-colors"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-teal-600 text-white p-3 rounded-full hover:bg-teal-700 transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -116,6 +183,14 @@ const SearchResultsContent = () => {
                   />
                 </svg>
               </button>
+              
+              {/* Search Suggestions */}
+              <SearchSuggestion
+                suggestions={searchSuggestions}
+                onSuggestionClick={handleSuggestionClick}
+                searchQuery={inputValue}
+                isVisible={showSuggestions}
+              />
             </div>
           </form>
         </div>

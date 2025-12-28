@@ -13,6 +13,9 @@ const ProductCatalog = ({ isHomePage = false }) => {
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -51,6 +54,60 @@ const ProductCatalog = ({ isHomePage = false }) => {
     navigate(`/products/c/${categorySlug}/${subcategorySlug}`);
   };
 
+  // Search functionality
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    if (query.trim() === "") {
+      setSearchSuggestions([]);
+      setShowSuggestions(false);
+      return;
+    }
+
+    // Flatten all products from all categories and subcategories
+    const allProducts = categories.flatMap((category) =>
+      (category.subcategories || []).flatMap((subcategory) =>
+        (subcategory.products || []).map((product) => ({
+          ...product,
+          category: category.name,
+          subcategory: subcategory.name,
+        }))
+      )
+    );
+
+    // Filter products based on search query
+    const results = allProducts.filter((product) => {
+      const searchTerms = query.toLowerCase().split(" ");
+      const productText = `
+        ${product.name} 
+        ${product.keyAttributes?.["Brand"] || ""} 
+        ${product.keyAttributes?.Size || ""} 
+        ${product.keyAttributes?.Pattern || ""}
+        ${product.description || ""}
+      `.toLowerCase();
+
+      return searchTerms.every((term) => productText.includes(term));
+    });
+
+    setSearchSuggestions(results.slice(0, 5)); // Show top 5 suggestions
+    setShowSuggestions(true);
+  };
+
+  const handleSuggestionClick = (suggestion) => {
+    setShowSuggestions(false);
+    setSearchQuery("");
+    navigate(`/product/${suggestion.id}`);
+  };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      setShowSuggestions(false);
+      navigate(`/search?q=${encodeURIComponent(searchQuery)}`);
+    }
+  };
+
 
   if (loading) {
     return (
@@ -82,6 +139,54 @@ const ProductCatalog = ({ isHomePage = false }) => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="px-4 max-w-7xl mx-auto">
+        {/* Search Section */}
+        {isHomePage && (
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-teal-800 mb-4 text-center">
+              What are you looking for?
+            </h2>
+            <form onSubmit={handleSearchSubmit} className="max-w-2xl mx-auto relative">
+              <div className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={handleSearchChange}
+                  onFocus={() => searchQuery && setShowSuggestions(true)}
+                  onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+                  placeholder="Search products, brands, categories..."
+                  className="w-full px-6 py-4 pr-12 border border-gray-300 bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent shadow-sm text-teal-800"
+                />
+                <button
+                  type="submit"
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-teal-600 hover:bg-teal-700 text-white p-3 rounded-full transition-colors"
+                >
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                </button>
+                
+                {/* Search Suggestions */}
+                <SearchSuggestion
+                  suggestions={searchSuggestions}
+                  onSuggestionClick={handleSuggestionClick}
+                  searchQuery={searchQuery}
+                  isVisible={showSuggestions}
+                />
+              </div>
+            </form>
+          </div>
+        )}
+
         <h1 className="text-3xl font-bold text-teal-800 mb-8 text-center">
           Product Catalog
         </h1>
