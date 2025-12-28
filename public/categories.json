@@ -13,6 +13,7 @@
             "name": "Double Coin RR202 10.00R20 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)"
             ],
@@ -63,6 +64,7 @@
             "name": "Double Coin RR202 10.00R20 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -114,6 +116,7 @@
             "name": "Double Coin RR202 10.00R20 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -165,6 +168,7 @@
             "name": "Double Coin FT105 10R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Light-duty drive tire for urban logistics. Ideal for delivery vehicles and light commercial applications.",
@@ -213,6 +217,7 @@
             "name": "Double Coin FT105 10R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -264,6 +269,7 @@
             "name": "Double Coin FT105 10R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -315,6 +321,7 @@
             "name": "Double Coin FT105 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$130.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)"
             ],
@@ -365,6 +372,7 @@
             "name": "Double Coin FT105 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$127.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -416,6 +424,7 @@
             "name": "Double Coin FT105 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$127.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -467,6 +476,23 @@
             "name": "Double Coin RR202 11.00R22 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)"
             ],
@@ -517,6 +543,23 @@
             "name": "Double Coin RR202 11.00R22 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -568,6 +611,23 @@
             "name": "Double Coin RR202 11.00R22 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -619,6 +679,23 @@
             "name": "Double Coin RLB400 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)"
             ],
@@ -669,6 +746,23 @@
             "name": "Double Coin RLB400 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$130.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -720,6 +814,23 @@
             "name": "Double Coin RLB400 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$132.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -771,6 +882,7 @@
             "name": "Double Coin FT105 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$132.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -822,6 +934,7 @@
             "name": "Double Coin FT105 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$132.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -873,6 +986,7 @@
             "name": "Double Coin FT105 12.00R15 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Compact drive tire for light trucks. Suitable for smaller commercial vehicles and light-duty applications.",
@@ -921,6 +1035,7 @@
             "name": "Double Coin FT105 120.00R15 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -972,6 +1087,7 @@
             "name": "Double Coin FT105 120.00R15 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1023,6 +1139,7 @@
             "name": "Double Coin RR202 12.00R24 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1074,6 +1191,7 @@
             "name": "Double Coin RR202 12.00R24 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1125,6 +1243,7 @@
             "name": "Double Coin RR202 12.00R24 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1176,6 +1295,7 @@
             "name": "Double Coin FT105 12R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1227,6 +1347,7 @@
             "name": "Double Coin FT105 12R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1278,6 +1399,7 @@
             "name": "Double Coin FT105 12R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1329,6 +1451,7 @@
             "name": "Double Coin RR202 12R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1380,6 +1503,7 @@
             "name": "Double Coin RR202 12R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1431,6 +1555,7 @@
             "name": "Double Coin RR202 12R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1482,6 +1607,7 @@
             "name": "Double Coin FT105 215/75R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Light-duty drive tire for urban delivery. Perfect for city operations and light commercial vehicles.",
@@ -1530,6 +1656,7 @@
             "name": "Double Coin FT105 215/75R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1581,6 +1708,7 @@
             "name": "Double Coin FT105 215/75R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1632,6 +1760,7 @@
             "name": "Double Coin FT105 225/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Medium-duty drive tire for regional haul. Balanced performance for various regional applications.",
@@ -1680,6 +1809,7 @@
             "name": "Double Coin FT105 225/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1731,6 +1861,7 @@
             "name": "Double Coin FT105 225/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1782,6 +1913,7 @@
             "name": "Double Coin FT105 235/75R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Light-duty drive tire for urban logistics. Ideal for delivery services and light commercial use.",
@@ -1830,6 +1962,7 @@
             "name": "Double Coin FT105 235/75R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1881,6 +2014,7 @@
             "name": "Double Coin FT105 235/75R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -1932,6 +2066,7 @@
             "name": "Double Coin FT105 245/70R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Versatile drive tire for light trucks. Suitable for various light commercial applications.",
@@ -1980,6 +2115,7 @@
             "name": "Double Coin FT105 245/70R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2031,6 +2167,7 @@
             "name": "Double Coin FT105 245/70R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2082,6 +2219,7 @@
             "name": "Double Coin FT105 245/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Medium-duty drive tire for regional haul. Designed for reliable performance in regional applications.",
@@ -2130,6 +2268,7 @@
             "name": "Double Coin FT105 245/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2181,6 +2320,7 @@
             "name": "Double Coin FT105 245/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2232,6 +2372,7 @@
             "name": "Double Coin FT105 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$141.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Compact drive tire for urban delivery. Ideal for city driving and frequent stop-and-go applications.",
@@ -2280,6 +2421,7 @@
             "name": "Double Coin FT105 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$138.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2331,6 +2473,7 @@
             "name": "Double Coin FT105 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$138.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2382,6 +2525,7 @@
             "name": "Double Coin FT105 265/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Wider drive tire for improved stability. Offers better traction and handling characteristics.",
@@ -2430,6 +2574,7 @@
             "name": "Double Coin FT105 265/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2481,6 +2626,7 @@
             "name": "Double Coin FT105 265/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2532,6 +2678,23 @@
             "name": "Double Coin RLB4 275/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2583,6 +2746,23 @@
             "name": "Double Coin RLB4 275/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2634,6 +2814,23 @@
             "name": "Double Coin RLB4 275/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2685,6 +2882,7 @@
             "name": "Double Coin FT105 285/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2736,6 +2934,7 @@
             "name": "Double Coin FT105 285/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2787,6 +2986,7 @@
             "name": "Double Coin FT105 285/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2838,6 +3038,7 @@
             "name": "Double Coin RR202 285/75R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -2889,6 +3090,7 @@
             "name": "Double Coin RR202 285/75R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3008,6 +3210,23 @@
             "name": "Double Coin RLB400 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)"
             ],
@@ -3058,6 +3277,23 @@
             "name": "Double Coin FT105 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$140.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3109,6 +3345,23 @@
             "name": "Double Coin FT105 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$140.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3160,6 +3413,7 @@
             "name": "Double Coin RLB4 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3211,6 +3465,7 @@
             "name": "Double Coin RLB4 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3262,6 +3517,7 @@
             "name": "Double Coin RLB4 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3313,6 +3569,7 @@
             "name": "Double Coin RR202 305/75R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3364,6 +3621,7 @@
             "name": "Double Coin RR202 305/75R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3415,6 +3673,7 @@
             "name": "Double Coin RR202 305/75R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3466,6 +3725,23 @@
             "name": "Double Coin RLB4 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$138.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3517,6 +3793,23 @@
             "name": "Double Coin RLB4 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$130.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3568,6 +3861,23 @@
             "name": "Double Coin RLB4 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$130.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3619,6 +3929,7 @@
             "name": "Double Coin RR202 385/55R19.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -3670,6 +3981,7 @@
             "name": "Double Coin RR202 385/55R19.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3721,6 +4033,7 @@
             "name": "Double Coin RR202 385/55R19.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3772,6 +4085,7 @@
             "name": "Double Coin RR202 385/55R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -3823,6 +4137,7 @@
             "name": "Double Coin RR202 385/55R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3874,6 +4189,7 @@
             "name": "Double Coin RR202 385/55R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -3925,6 +4241,7 @@
             "name": "Double Coin RR202 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$215.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -3976,6 +4293,7 @@
             "name": "Double Coin RR202 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$212.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -4027,6 +4345,7 @@
             "name": "Double Coin RR202 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$212.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4078,6 +4397,7 @@
             "name": "Double Coin FT105 9R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [],
             "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
             "description": "Compact drive tire for light-duty applications. Provides reliable performance for smaller commercial vehicles.",
@@ -4126,6 +4446,7 @@
             "name": "Double Coin FT105 9R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4177,6 +4498,7 @@
             "name": "Double Coin FT105 9R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4228,6 +4550,7 @@
             "name": "Firestone FD694 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$200.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4279,6 +4602,7 @@
             "name": "Firestone FS560 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$231.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4330,6 +4654,7 @@
             "name": "Firestone FT413 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$193.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4381,6 +4706,23 @@
             "name": "Firestone FD694 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$210.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4432,6 +4774,23 @@
             "name": "Firestone FS560 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$238.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4483,6 +4842,23 @@
             "name": "Firestone FT413 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$200.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4534,6 +4910,7 @@
             "name": "Firestone FD694 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$215.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4585,6 +4962,7 @@
             "name": "Firestone FS560 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$242.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4636,6 +5014,7 @@
             "name": "Firestone FT413 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$207.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4687,6 +5066,7 @@
             "name": "Firestone FD694 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$205.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4738,6 +5118,7 @@
             "name": "Firestone FS560 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$235.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4789,6 +5170,7 @@
             "name": "Firestone FT413 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$196.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4840,6 +5222,23 @@
             "name": "Firestone FD694 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$225.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4891,6 +5290,23 @@
             "name": "Firestone FS560 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$249.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4942,6 +5358,23 @@
             "name": "Firestone FT413 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -4993,6 +5426,7 @@
             "name": "Firestone FD694 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$230.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5044,6 +5478,7 @@
             "name": "Firestone FS560 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$252.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5095,6 +5530,7 @@
             "name": "Firestone FT413 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$203.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5146,6 +5582,23 @@
             "name": "Firestone FD694 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$235.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5197,6 +5650,23 @@
             "name": "Firestone FS560 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$256.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5248,6 +5718,23 @@
             "name": "Firestone FT413 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$214.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5299,6 +5786,7 @@
             "name": "Firestone FD694 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$250.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -5350,6 +5838,7 @@
             "name": "Firestone FS560 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$245.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -5401,6 +5890,7 @@
             "name": "Firestone FT413 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$228.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 20 tires)",
               "Special compound formulation (Min. order: 50 tires)"
@@ -5452,6 +5942,23 @@
             "name": "Goodyear Endurance RSA 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$205.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5503,6 +6010,23 @@
             "name": "Goodyear G390 LHS 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$202.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5554,6 +6078,23 @@
             "name": "Goodyear G316 LHT 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$202.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5605,6 +6146,23 @@
             "name": "Goodyear Endurance RSA HD 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$205.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5656,6 +6214,23 @@
             "name": "Goodyear G395 XT LHS 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$202.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5707,6 +6282,23 @@
             "name": "Goodyear G316 LHT 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$202.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$190.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$157.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$136.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5758,6 +6350,7 @@
             "name": "Goodyear Endurance RSA HD 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$208.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5809,6 +6402,7 @@
             "name": "Goodyear G395 XT LHS 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$205.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5860,6 +6454,7 @@
             "name": "Goodyear G316 LHT 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$205.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5911,6 +6506,7 @@
             "name": "Goodyear Regional RSD 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$225.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -5962,6 +6558,7 @@
             "name": "Goodyear G395 LHS 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$222.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -6013,6 +6610,7 @@
             "name": "Goodyear G315 LHT 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$222.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -6064,6 +6662,23 @@
             "name": "Goodyear Fuel Max RSA 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -6115,6 +6730,23 @@
             "name": "Goodyear G397 LHS 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -6166,6 +6798,23 @@
             "name": "Goodyear G317 LHT 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 10,
+                "maxQuantity": 49,
+                "pricePerTire": "$220.00"
+              },
+              {
+                "minQuantity": 50,
+                "maxQuantity": 199,
+                "pricePerTire": "$170.00"
+              },
+              {
+                "minQuantity": 200,
+                "maxQuantity": null,
+                "pricePerTire": "$147.00"
+              }
+            ],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -6217,6 +6866,7 @@
             "name": "Goodyear Fuel Max RSA+ 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
+            "pricingTiers": [],
             "customizationOptions": [
               "Custom sidewall Branding (Min. order: 50 tires)",
               "Special compound formulation (Min. order: 100 tires)"
@@ -9521,11 +10171,18 @@
           {
             "id": 6001,
             "name": "High Purity Copper Wire Scrap (99.99%)",
-            "price": "$4300.00",
-            "bulkPricing": [
+            "price": "$4,300.00",
+            "offerPrice": "$4,300.00",
+            "pricingTiers": [
               {
-                "minQty": 5,
-                "pricePerTon": "$3200.00"
+                "minQuantity": 1,
+                "maxQuantity": 4,
+                "pricePerTon": "$4,300.00"
+              },
+              {
+                "minQuantity": 5,
+                "maxQuantity": null,
+                "pricePerTon": "$3,200.00"
               }
             ],
             "customizationOptions": [
@@ -9543,7 +10200,7 @@
               "Copper Content (%)": "99%",
               "Supply Ability": "500 Tons per Month",
               "Grade": "A",
-              "MOQ": "5 Tons",
+              "MOQ": "1 Ton",
               "Processing": "Wire Scrap",
               "Package": "Bulk Ton Bags",
               "Quality": "High Quality"
@@ -9556,11 +10213,18 @@
           {
             "id": 6002,
             "name": "Aluminum Copper Scrap Block Power",
-            "price": "$4300.00",
-            "bulkPricing": [
+            "price": "$4,300.00",
+            "offerPrice": "$4,300.00",
+            "pricingTiers": [
               {
-                "minQty": 5,
-                "pricePerTon": "$3200.00"
+                "minQuantity": 1,
+                "maxQuantity": 4,
+                "pricePerTon": "$4,300.00"
+              },
+              {
+                "minQuantity": 5,
+                "maxQuantity": null,
+                "pricePerTon": "$3,200.00"
               }
             ],
             "customizationOptions": [
@@ -9577,7 +10241,7 @@
               "Purity": "99.9% - 99.99%",
               "Supply Ability": "500 Tons per Month",
               "Grade": "A",
-              "MOQ": "5 Tons",
+              "MOQ": "1 Ton",
               "Processing": "Scrap Block",
               "Package": "Bulk Ton Bags",
               "Quality": "High Quality"
@@ -10214,796 +10878,499 @@
   },
   {
     "id": 5,
-    "name": "Frozen Fish",
+    "name": "Frozen Seafood",
     "icon": "🐟",
     "subcategories": [
       {
-        "id": 501,
+        "id": 301,
         "name": "Eel",
         "products": [
           {
-            "id": 6016,
-            "name": "Premium Quality frozen eel fish",
-            "price": "$1800.00 - $2000.00 per ton",
-            "sizePricing": [
+            "id": 401,
+            "name": "Premium Quality Frozen Eel Fish",
+            "price": "$2,500.00",
+            "offerPrice": "$1,800.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$1500"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$2500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$3000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$2,500.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 10,000 kg)",
-              "Graphic customization (Min. order: 10,000 kg)",
-              "Customized packaging (Min. order: 10,000 kg)"
+              "Custom cutting and packing (Min. order: 100 kg)",
+              "Glazing options available"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
-            "description": "Premium Frozen Roasted Unagi Eel (Conger Pike), wild-caught and processed under HACCP standards. Vacuum-packed or bulk packed in 10kg cartons. Features low-sugar, nutritious, and organic qualities. Shelf life of 2 years when stored under -18\u00b0C. Available with OEM Branding and packaging customization. Ideal for sushi, grilling, and gourmet cooking.",
-            "image": "/assets/fish/eel/eel1.png",
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen eel fish, ideal for restaurants and distributors.",
+            "image": "/assets/seafood/eel_premium.jpg",
             "keyAttributes": {
-              "Product Code": "NA",
-              "Brand": "Custom",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Place of Origin": "Bangladesh",
-              "Weight": "0.6 kg",
-              "Size": "60 cm",
-              "Style": "Frozen",
-              "Feature": [
-                "Low-Sugar",
-                "Organic",
-                "Vitamins",
-                "Nutritious"
-              ],
-              "Specification": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Shelf Life": "2 years",
-              "Storage Type": "Keep frozen under -18\u00b0C",
-              "Processing": "Block Quick Frozen",
-              "Part": "Whole",
-              "Content": "Frozen eel",
-              "Ingredients": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Model": "NA",
-              "Drying Process": "FD",
-              "Variety": "Freshwater Drum",
-              "Additives": "N/A",
-              "Freezing Process": "IQF",
-              "Max Moisture": "8%",
-              "pH Value": "N/A",
-              "Preservation Process": "Water",
-              "Packing": "10 KGS/CTN",
-              "InstructionForUse": "Cook thoroughly",
-              "PaymentTerm": "T/T",
-              "Taste": "Delicious",
-              "ProductType": "Seafood",
-              "Origin": "Fujian Province, China",
-              "MOQ": "10 Tons"
+              "Species": "Eel",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, gutted",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item",
-              "deliveryTime": "7-14 days"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6017,
+            "id": 402,
             "name": "Wholesale Fresh Live Eel Fish (Conger Pike)",
-            "price": "$1800.00 - $2000.00 per ton",
-            "MOQ": "10 Tons",
-            "sizePricing": [
+            "price": "$3,000.00",
+            "offerPrice": "$2,500.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$1500"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,500.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$2500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$3000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$3,000.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 10,000 kg)",
-              "Graphic customization (Min. order: 10,000 kg)",
-              "Customized packaging (Min. order: 10,000 kg)"
+              "Live delivery arrangements",
+              "Custom size selection"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
-            "description": "Wholesale live and fresh eel fish (Conger Pike), farm-raised and exported directly from Bangladesh. Processed under HACCP standards with vacuum or bulk packaging options. Features organic, nutritious qualities with a shelf life of 2 years when kept under -18\u00b0C. Available with OEM logo, packaging, and graphic customization. Ideal for export markets worldwide.",
-            "image": "/assets/fish/eel/eel2.png",
+            "shipping": "Live seafood transport. Special arrangements required.",
+            "description": "Wholesale fresh live eel fish (Conger Pike) for high-end markets.",
+            "image": "/assets/seafood/eel_live.jpg",
             "keyAttributes": {
-              "Product Code": "NA",
-              "Brand": "Custom",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Place of Origin": "Bangladesh",
-              "Weight": "0.6 kg",
-              "Size": "60 cm",
-              "Style": "Frozen",
-              "Feature": [
-                "Low-Sugar",
-                "Organic",
-                "Vitamins",
-                "Nutritious"
-              ],
-              "Specification": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Shelf Life": "2 years",
-              "Storage Type": "Keep frozen under -18\u00b0C",
-              "Processing": "Block Quick Frozen",
-              "Part": "Whole",
-              "Content": "High quality eel",
-              "Ingredients": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Model": "NA",
-              "Drying Process": "FD",
-              "Variety": "Freshwater Drum",
-              "Additives": "N/A",
-              "Freezing Process": "IQF",
-              "Max Moisture": "8%",
-              "pH Value": "N/A",
-              "Preservation Process": "Water",
-              "Packing": "10 KGS/CTN",
-              "InstructionForUse": "Cook thoroughly",
-              "PaymentTerm": "T/T",
-              "Taste": "Delicious",
-              "ProductType": "Seafood",
-              "Origin": "Bangladesh",
-              "MOQ": "10 Tons"
+              "Species": "Conger Pike",
+              "Type": "Live/Fresh",
+              "Quality": "Premium",
+              "Processing": "Live",
+              "Storage": "Live tanks",
+              "MOQ": "50 kg",
+              "Packaging": "Specialized live transport",
+              "Origin": "Wild catch/Aquaculture",
+              "Shelf Life": "Live delivery only"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item",
-              "deliveryTime": "7-14 days"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "7-14 days (special arrangements)"
             },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6018,
+            "id": 403,
             "name": "Wholesale Frozen Freshwater Eel (Unagi, Conger Pike)",
-            "price": "$1800.00 - $2000.00 per ton",
-            "MOQ": "10 Tons",
-            "sizePricing": [
+            "price": "$2,800.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$1500"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,500.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$2500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$3000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$2,000.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 10,000 kg)",
-              "Graphic customization (Min. order: 10,000 kg)",
-              "Customized packaging (Min. order: 10,000 kg)"
+              "Fillet or whole options",
+              "Marinade options available"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
-            "description": "Wholesale frozen freshwater eel (Unagi Conger Pike) sourced from Bangladesh. Premium roasted Unagi eel, sliced into 12cm pieces, vacuum packed or bulk packed in 10kg cartons. Processed under HACCP standards with Block Quick Frozen (BQF) technology. Features organic, nutritious, and low-sugar qualities. Shelf life of 2 years when stored under -18\u00b0C. OEM logo, packaging, and graphic customization available. Ideal for sushi, grilling, and gourmet dishes.",
-            "image": "/assets/fish/eel/eel3.png",
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Wholesale frozen freshwater eel including Unagi and Conger Pike varieties.",
+            "image": "/assets/seafood/eel_freshwater.jpg",
             "keyAttributes": {
-              "Product Code": "NA",
-              "Brand": "Custom",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Place of Origin": "Bangladesh",
-              "Weight": "0.6 kg",
-              "Size": "60 cm",
-              "Style": "Frozen",
-              "Feature": [
-                "Low-Sugar",
-                "Organic",
-                "Vitamins",
-                "Nutritious"
-              ],
-              "Specification": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Shelf Life": "2 years",
-              "Storage Type": "Keep frozen under -18\u00b0C",
-              "Processing": "Block Quick Frozen",
-              "Part": "Whole",
-              "Content": "Frozen eel",
-              "Ingredients": "Frozen Conger Pike Eel Steak Wild Caught",
-              "Model": "NA",
-              "Drying Process": "FD",
-              "Variety": "Freshwater Drum",
-              "Additives": "N/A",
-              "Freezing Process": "IQF",
-              "Max Moisture": "8%",
-              "pH Value": "N/A",
-              "Preservation Process": "Water",
-              "Packing": "10 KGS/CTN",
-              "InstructionForUse": "Cook thoroughly",
-              "PackageDetails": "10kg/ctns, 2 boxes/ctn, slice 12cm/pcs",
-              "PaymentTerm": "T/T",
-              "Taste": "Delicious",
-              "ProductType": "Seafood",
-              "Origin": "Bangladesh",
-              "MOQ": "10 Tons"
+              "Species": "Freshwater Eel (Unagi/Conger Pike)",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole or fillet",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Vacuum packs in cartons",
+              "Origin": "Freshwater aquaculture",
+              "Shelf Life": "24 months"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item",
-              "deliveryTime": "7-14 days"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           }
         ]
       },
       {
-        "id": 502,
+        "id": 302,
         "name": "Crab",
         "products": [
           {
-            "id": 6019,
+            "id": 404,
             "name": "Frozen Mud Crab (Wholesale Premium Quality)",
-            "price": "$4000.00 per ton",
-            "sizePricing": [
+            "price": "$7,000.00",
+            "offerPrice": "$6,500.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$4000"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$6500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$9000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$6,500.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 5000 kg)",
-              "Customized packaging (Min. order: 5000 kg)",
-              "Graphic customization (Min. order: 5000 kg)"
+              "Whole or cleaned options",
+              "Size grading available"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen mud crabs for wholesale distribution.",
+            "image": "/assets/seafood/mud_crab_frozen.jpg",
             "keyAttributes": {
-              "part": "Whole",
-              "variety": "Mud Crab",
-              "type": "Crab",
-              "style": "Frozen, BQF",
-              "specification": "Frozen Mud Crab",
-              "storageType": "Custom Frozen",
-              "shelfLife": "24 months",
-              "weight": "0.2 kg per piece",
-              "packing": "10 kg/carton",
-              "packaging": "CNT (Carton)",
-              "instructionForUse": "Cook before eating",
-              "feature": [
-                "Nutritious",
-                "Fresh Frozen"
-              ],
-              "manufacturer": "Bangladesh",
-              "ingredients": "Crabs",
-              "content": "Mud Crab",
-              "address": "Dhaka, Bangladesh",
-              "placeOfOrigin": "Bangladesh",
-              "Brand": "Custom",
-              "modelNumber": "NA",
-              "MOQ": "10 Tons"
+              "Species": "Mud Crab",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, live frozen",
+              "Storage": "-18°C or below",
+              "MOQ": "50 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Coastal regions",
+              "Shelf Life": "18 months"
             },
-            "image": "/assets/fish/crab/crab.png",
-            "description": "High-quality frozen mud crab, wild-caught and processed under international standards. Packed in 10kg cartons, stored at -18\u00b0C for up to 24 months. Available with customized logo, packaging, and graphic Branding for bulk orders. Ideal for wholesale seafood distributors and restaurants.",
-            "priceSource": "US market reference (B2B average)"
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6020,
+            "id": 405,
             "name": "Frozen Sea & Mud Crab (Premium Quality Wholesale)",
-            "price": "$4000.00 per ton",
-            "MOQ": "10 Tons",
-            "sizePricing": [
+            "price": "$9,500.00",
+            "offerPrice": "$9,000.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$4000"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$6500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$9000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$9,000.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 5000 kg)",
-              "Customized packaging (Min. order: 5000 kg)",
-              "Graphic customization (Min. order: 5000 kg)"
+              "Mixed or single species orders",
+              "Cleaning and processing options"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen sea and mud crab mix for wholesale markets.",
+            "image": "/assets/seafood/crab_mix.jpg",
             "keyAttributes": {
-              "part": "Whole",
-              "variety": "Mud Crab",
-              "type": "Crab",
-              "style": "Frozen, IQF/BQF",
-              "specification": "Frozen Sea & Mud Crab",
-              "storageType": "Frozen (-18\u00b0C)",
-              "shelfLife": "24 months",
-              "weight": "0.2 \u2013 1.0 kg per piece",
-              "size": "300 \u2013 1000 g",
-              "packing": "10 kg/carton or 12 box/CTN",
-              "packaging": "CNT (Carton) / Custom Packing",
-              "instructionForUse": "Thaw then cook before eating",
-              "feature": [
-                "Nutritious",
-                "High Protein",
-                "Fresh Frozen"
-              ],
-              "manufacturer": "Asian Import and Export Co., LTD",
-              "ingredients": "Crabs",
-              "content": "Mud Crab",
-              "address": "Dhaka, Bangladesh",
-              "placeOfOrigin": "Bangladesh",
-              "Brand": "Custom",
-              "modelNumber": "N/A",
-              "latinName": "Paralithodes Camtschaticus",
-              "processing": "IQF / BQF",
-              "grade": "Premium",
-              "quality": "High Quality",
-              "deliveryTime": "7\u201314 Days",
-              "MOQ": "10 Tons"
+              "Species": "Mixed (Sea Crab & Mud Crab)",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, live frozen",
+              "Storage": "-18°C or below",
+              "MOQ": "50 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Coastal regions",
+              "Shelf Life": "18 months"
             },
-            "image": "/assets/fish/crab/crab2.png",
-            "description": "Premium frozen sea and mud crabs sourced from Bangladesh. Wild-caught and processed under HACCP standards with IQF/BQF freezing technology. Available in whole cuts, 300\u20131000g size range, packed in 10kg cartons or 12-box cartons. Shelf life of 24 months at -18\u00b0C. Customizable packaging and Branding options available for bulk orders. Ideal for seafood distributors, restaurants, and export markets worldwide.",
-            "priceSource": "US market reference (B2B average)"
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6021,
+            "id": 406,
             "name": "Premium Quality Hot Sale Live Mud Crabs",
-            "price": "$4000.00 per ton",
-            "sizePricing": [
+            "price": "$10,000.00",
+            "offerPrice": "$9,000.00",
+            "pricingTiers": [
               {
-                "size": "150-250 gm",
-                "pricePerTon": "$4000"
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
               },
               {
-                "size": "250-350 gm",
-                "pricePerTon": "$6500"
-              },
-              {
-                "size": "500 gm+",
-                "pricePerTon": "$9000"
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$9,000.00"
               }
             ],
             "customizationOptions": [
-              "Customized logo (Min. order: 5000 kg)",
-              "Customized packaging (Min. order: 5000 kg)",
-              "Graphic customization (Min. order: 5000 kg)"
+              "Live delivery arrangements",
+              "Size selection"
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
+            "shipping": "Live seafood transport. Special arrangements required.",
+            "description": "Premium quality live mud crabs for high-end restaurants and markets.",
+            "image": "/assets/seafood/mud_crab_live.jpg",
             "keyAttributes": {
-              "part": "Whole",
-              "variety": "Mud Crab / Blue Crab",
-              "type": "Crab",
-              "style": "Live / Frozen",
-              "specification": "Frozen Mud Crab",
-              "storageType": "Frozen",
-              "shelfLife": "24 months",
-              "weight": "0.2 \u2013 1.0 kg per piece",
-              "size": "300 \u2013 1000 g",
-              "packing": "10 kg/carton",
-              "packaging": "CNT (Carton)",
-              "instructionForUse": "Cook before eating",
-              "feature": [
-                "Kosher Certified",
-                "Premium Quality",
-                "High Protein"
-              ],
-              "manufacturer": "Asian Import and Export Co., LTD",
-              "ingredients": "Crabs",
-              "content": "Mud Crab",
-              "address": "Dhaka, Bangladesh",
-              "placeOfOrigin": "Bangladesh",
-              "Brand": "Custom",
-              "grade": "High Grade",
-              "processing": "IQF / BQF",
-              "taste": "Natural",
-              "name": "Live Mud Crab / Frozen Kosher Crab",
-              "MOQ": "10 Tons"
+              "Species": "Mud Crab",
+              "Type": "Live",
+              "Quality": "Premium",
+              "Processing": "Live",
+              "Storage": "Live tanks",
+              "MOQ": "20 kg",
+              "Packaging": "Specialized live transport",
+              "Origin": "Coastal aquaculture",
+              "Shelf Life": "Live delivery only"
             },
-            "image": "/assets/fish/crab/crab3.png",
-            "description": "Premium quality live mud crabs with Blue Frozen Kosher certification. Freshly sourced from Bangladesh, available live or frozen with IQF/BQF processing. High-grade, 300\u20131000g size range, packed in 10kg cartons. Shelf life of 24 months when frozen. Kosher certified and suitable for international export. Ideal for premium seafood markets, restaurants, and wholesalers requiring high protein, nutritious crab products.",
-            "priceSource": "US market reference (B2B average)"
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "7-14 days (special arrangements)"
+            },
+            "priceSource": "International seafood market reference"
           }
         ]
       },
       {
-        "id": 503,
-        "name": "Shrimps",
+        "id": 303,
+        "name": "Shrimp",
         "products": [
           {
-            "id": 6022,
-            "name": "Frozen White Shrimp (Water Prawn)",
-            "priceTiers": [
+            "id": 407,
+            "name": "Premium Frozen Shrimp (Various Sizes)",
+            "price": "$11,000.00",
+            "offerPrice": "$10,000.00",
+            "pricingTiers": [
               {
-                "range": "20000 - 24999 kg",
-                "pricePerKg": "$14"
+                "size": "4/6 (Very Large)",
+                "pricePerTon": "$10,000.00"
               },
               {
-                "range": "25000 - 29999 kg",
-                "pricePerKg": "$13"
+                "size": "6/8",
+                "pricePerTon": "$9,750.00"
               },
               {
-                "range": "30000 - 34999 kg",
-                "pricePerKg": "$12"
+                "size": "8/12",
+                "pricePerTon": "$8,250.00"
               },
               {
-                "range": ">= 35000 kg",
-                "pricePerKg": "$11"
+                "size": "13/15",
+                "pricePerTon": "$6,950.00"
+              },
+              {
+                "size": "16/20",
+                "pricePerTon": "$6,450.00"
+              },
+              {
+                "size": "U/5 (Extra Huge)",
+                "pricePerTon": "$6,450.00"
               }
             ],
-            "price": "$250.00",
-            "offerPrice": "$10.50",
-            "MOQ": "30,000 kg",
             "customizationOptions": [
-              "Customized logo (Min. order: 1,000 kg)",
-              "Customized packaging (Min. order: 1,000 kg)",
-              "Graphic customization (Min. order: 1,000 kg)"
+              "Peeled and deveined options",
+              "Tail-on or tail-off",
+              "IQF (Individually Quick Frozen)"
             ],
-            "shipping": {
-              "deliveryTime": "7\u201314 Days",
-              "note": "Shipping fee and delivery date to be negotiated with supplier"
-            },
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen shrimp in various sizes for export markets.",
+            "image": "/assets/seafood/shrimp_premium.jpg",
             "keyAttributes": {
-              "processingType": "Headless, Skinless",
-              "style": "Frozen, IQF",
-              "variety": "White Shrimp",
-              "type": "Shrimp",
-              "specification": "Shrimp",
-              "weight": "0.2 kg per piece",
-              "shelfLife": "24 months",
-              "storage": "Frozen under -18\u00b0C",
-              "packaging": "Box",
-              "package": "10/20 kg cartons (or as per customer request)",
-              "quality": "High-quality",
-              "instructionForUse": "Ideal for curry and other dishes",
-              "manufacturer": "Own Farm",
-              "ingredients": "Water Prawn",
-              "content": "White Shrimp (Water Prawn)",
-              "placeOfOrigin": "Bangladesh",
-              "address": "Dhaka, Bangladesh",
-              "Brand": "Custom"
+              "Species": "Shrimp/Prawn",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, peeled options",
+              "Storage": "-18°C or below",
+              "MOQ": "1 ton",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
             },
-            "image": "/assets/fish/shrimp/shrimp.png",
-            "description": "Premium frozen white shrimp (water prawn), processed headless and skinless with IQF freezing. Packed in 10/20 kg cartons and stored at -18\u00b0C, with a shelf life of 24 months. Sourced from Bangladesh farms, available with custom Branding and packaging. Ideal for curry, grilling, and seafood dishes. Bulk MOQ of 30,000 kg with competitive tiered pricing.",
-            "priceSource": "US market reference (B2B average)"
+            "packagingAndDelivery": {
+              "sellingUnits": "Per ton",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6023,
-            "name": "100% Frozen Vannamei Shrimp (Headless, Box Pack)",
-            "priceTiers": [
+            "id": 408,
+            "name": "Frozen Shrimp (Medium Sizes)",
+            "price": "$6,000.00",
+            "offerPrice": "$5,800.00",
+            "pricingTiers": [
               {
-                "range": "15000 - 19999 kg",
-                "pricePerKg": "$14.04"
+                "size": "26/30",
+                "pricePerKg": "$5.70"
               },
               {
-                "range": "20000 - 24999 kg",
-                "pricePerKg": "$13.78"
+                "size": "31/40",
+                "pricePerKg": "$5.80"
               },
               {
-                "range": "25000 - 29999 kg",
-                "pricePerKg": "$12.45"
+                "size": "41/50",
+                "pricePerKg": "$5.80"
               },
               {
-                "range": ">= 30000 kg",
-                "pricePerKg": "$11.23"
+                "size": "51/60",
+                "pricePerKg": "$5.70"
+              },
+              {
+                "size": "61/70",
+                "pricePerKg": "$5.55"
+              },
+              {
+                "size": "71/90",
+                "pricePerKg": "$5.50"
+              },
+              {
+                "size": "91/120",
+                "pricePerKg": "$5.40"
               }
             ],
-            "price": "$250.00",
-            "offerPrice": "$10.80",
-            "MOQ": "15,000 kg",
             "customizationOptions": [
-              "Customized logo (Min. order: 15,000 kg)",
-              "Customized packaging (Min. order: 15,000 kg)",
-              "Graphic customization (Min. order: 15,000 kg)"
+              "Block frozen or IQF",
+              "Peeled and deveined options"
             ],
-            "shipping": {
-              "deliveryTime": "7\u201314 Days",
-              "note": "Shipping fee and delivery date to be negotiated with supplier"
-            },
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Medium size frozen shrimp for various culinary applications.",
+            "image": "/assets/seafood/shrimp_medium.jpg",
             "keyAttributes": {
-              "processingType": "Headless, Skinless",
-              "style": "Frozen, IQF",
-              "variety": "Vannamei Shrimp / Prawn",
-              "type": "Shrimp",
-              "specification": "Frozen Shrimp",
-              "weight": "0.2 kg per piece",
-              "shelfLife": "24 months",
-              "storage": "Frozen under -18\u00b0C",
-              "packaging": "Box",
-              "package": "10/20 kg cartons (or as per customer request)",
-              "quality": "High-quality",
-              "instructionForUse": "Ideal for curry and general cooking",
-              "manufacturer": "Own Farm",
-              "ingredients": "Water Prawn",
-              "content": "White Shrimp (Vannamei)",
-              "placeOfOrigin": "Bangladesh",
-              "address": "Dhaka, Bangladesh",
-              "Brand": "Custom"
+              "Species": "Shrimp",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole, peeled options",
+              "Storage": "-18°C or below",
+              "MOQ": "500 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
             },
-            "image": "/assets/fish/shrimp/shrimp2.png",
-            "description": "Premium frozen Vannamei shrimp (white prawn), headless and skinless, processed with IQF technology. Packed in 10/20 kg cartons and stored at -18\u00b0C with a shelf life of 24 months. Sourced from trusted farms in Bangladesh and offered with full customization options (logo, packaging, graphics). Competitive bulk pricing starts at 15,000 kg MOQ. Ideal for wholesale distributors, restaurants, and international seafood markets.",
-            "priceSource": "US market reference (B2B average)"
-          },
-          {
-            "id": 6024,
-            "name": "Frozen Prawns Raw Peeled Red Shrimp (Bag Top Style)",
-            "priceTiers": [
-              {
-                "range": "20000 - 24999 kg",
-                "pricePerKg": "$14"
-              },
-              {
-                "range": "25000 - 29999 kg",
-                "pricePerKg": "$13"
-              },
-              {
-                "range": "30000 - 34999 kg",
-                "pricePerKg": "$12"
-              },
-              {
-                "range": ">= 35000 kg",
-                "pricePerKg": "$11"
-              }
-            ],
-            "price": "$250.00",
-            "offerPrice": "$10.50",
-            "MOQ": "1 Ton (1000 kg)",
-            "customizationOptions": [
-              "Customized logo (Min. order: 1000 kg)",
-              "Customized packaging (Min. order: 1000 kg)",
-              "Graphic customization (Min. order: 1000 kg)"
-            ],
-            "shipping": {
-              "deliveryTime": "To be negotiated",
-              "note": "Shipping fee and delivery date to be negotiated with supplier"
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "keyAttributes": {
-              "processingType": "Headless, Raw, Peeled (also options: Fried, Roasted)",
-              "style": "Frozen, IQF",
-              "variety": "White Shrimp (Red Shrimp / Water Prawn)",
-              "type": "Shrimp",
-              "specification": "Frozen Shrimp",
-              "weight": "200 g per piece",
-              "shelfLife": "24 months",
-              "storage": "Frozen under -18\u00b0C (spec mentions 2\u00b0C but corrected to frozen)",
-              "packaging": "Bag Top Style / Bulk Box / 10kg Bags or Cartons",
-              "package": "10kg NW bulk bag or carton",
-              "quality": "High Quality",
-              "instructionForUse": "Suitable for curry and general cooking",
-              "manufacturer": "Bangladesh",
-              "ingredients": "Water Prawn",
-              "content": "White Shrimp (Water Prawn)",
-              "placeOfOrigin": "Bangladesh",
-              "address": "Dhaka, Bangladesh",
-              "Brand": "Custom",
-              "paymentTerm": "T/T"
-            },
-            "image": "/assets/fish/shrimp/shrimp3.png",
-            "description": "Frozen prawns (raw peeled red shrimp) from Bangladesh, processed headless and frozen using IQF technology. Available in bag top style, bulk cartons, or 10kg bags. Shelf life of 24 months when stored at -18\u00b0C. Competitive wholesale pricing available with 1 ton MOQ and full customization (logo, packaging, graphics). Ideal for curry, frying, roasting, and global seafood distribution.",
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           }
         ]
       },
       {
-        "id": 504,
-        "name": "Frozen Tilapia",
+        "id": 304,
+        "name": "Tilapia",
         "products": [
           {
-            "id": 6025,
+            "id": 409,
             "name": "Whole Tilapia",
-            "price": "$2000.00 per ton",
-            "customizationOptions": [
-              "Customized logo (Min. order: 10000 kg)",
-              "Customized packaging (Min. order: 10000 kg)",
-              "Graphic customization (Min. order: 10000 kg)"
+            "price": "$2,500.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.00"
+              }
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "High-quality frozen tilapia sourced from Bangladesh. Processed under strict quality control, preserved through IQF (Individually Quick Frozen) to maintain freshness, taste, and nutrition. Suitable for export markets, available in bulk packaging with customization options for logo, packaging, and design. Tilapia is rich in protein, low in fat, and a versatile fish suitable for grilling, frying, or steaming.",
-            "image": "/assets/fish/tilapia/tilapia.png",
+            "customizationOptions": [
+              "Size grading",
+              "Gutted or whole"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Whole tilapia fish, fresh frozen for wholesale distribution.",
+            "image": "/assets/seafood/tilapia_whole.jpg",
             "keyAttributes": {
-              "Packaging": "Bulk, Box",
-              "Shape": "Piece",
-              "Place of Origin": "Bangladesh",
-              "Storage Type": "at or below -18\u00b0 C",
-              "Specification": "FROZEN TILAPIA",
-              "Shelf Life": "24 months",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Ingredients": "Frozen Tilapia",
-              "Content": "Frozen Tilapia",
-              "Address": "Bangladesh",
-              "Instruction for use": "Cook before eat",
-              "Brand": "Custom",
-              "Model Number": "None",
-              "Drying Process": "FD",
-              "Weight (kg)": "100-200, 200-300, 300-500, 500-800, 800G+",
-              "Additives": "None",
-              "Freezing Process": "IQF",
-              "Max. Moisture (%)": "5-30%",
-              "Part": "Whole",
-              "PH Value": "None",
-              "Preservation Process": "Water",
-              "Size (cm)": "15",
-              "Style": "Frozen",
-              "Feature": "Organic, Vitamins, Nutritious",
-              "Grade": "A",
-              "Packing": "10kg/ctn",
-              "Processing": "Round, IQF",
-              "Package": "10-20kg/ctn",
-              "Storage": "Freezer -18 \u00b0C",
-              "Quality": "High Quality",
-              "Product name": "Dried Tilapia Fish Scale",
-              "Delivery Time": "7-14 days",
-              "Color": "Natural Color",
-              "MOQ": "15 Tons"
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6026,
+            "id": 410,
             "name": "Frozen Tilapia",
-            "price": "$2000.00 per ton",
-            "MOQ": "15 Tons",
-            "customizationOptions": [
-              "Customized logo (Min. order: 10000 kg)",
-              "Customized packaging (Min. order: 10000 kg)",
-              "Graphic customization (Min. order: 10000 kg)"
+            "price": "$2,500.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.00"
+              }
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "Keeping the customer in mind, we export good quality frozen tilapia fish all over the world at low prices. It is very tasty, high in protein, low in fat, and preserved through IQF freezing to maintain freshness and nutrition. Suitable for grilling, frying, or steaming.",
-            "image": "/assets/fish/tilapia/tilapia2.png",
+            "customizationOptions": [
+              "Fillet or whole options",
+              "Skin-on or skinless"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Frozen tilapia for various culinary applications.",
+            "image": "/assets/seafood/tilapia_frozen.jpg",
             "keyAttributes": {
-              "Packaging": "Bulk, Box",
-              "Shape": "Piece",
-              "Place of Origin": "Bangladesh",
-              "Storage Type": "at or below -18\u00b0 C",
-              "Specification": "FROZEN TILAPIA",
-              "Shelf Life": "24 months",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Ingredients": "Frozen Tilapia",
-              "Content": "Frozen Tilapia",
-              "Address": "Bangladesh",
-              "Instruction for use": "Cook Before Eat",
-              "Brand": "Custom",
-              "Model Number": "None",
-              "Drying Process": "FD",
-              "Weight (kg)": "100-200, 200-300, 300-500, 500-800, 800G+",
-              "Additives": "None",
-              "Freezing Process": "IQF",
-              "Max. Moisture (%)": "5-30%",
-              "Part": "Whole",
-              "PH Value": "N/A",
-              "Preservation Process": "Water",
-              "Size (cm)": "15",
-              "Style": "Frozen",
-              "Feature": "Organic, Vitamins, Nutritious",
-              "Grade": "A",
-              "MOQ": "15 Tons",
-              "Packing": "10kg/ctn",
-              "Processing": "Round, IQF",
-              "Package": "10kg/ctn",
-              "Storage": "Freezer -18 \u00b0C",
-              "Quality": "High Quality",
-              "Product name": "Dried Tilapia Fish Scale",
-              "Delivery Time": "7-14 days",
-              "Color": "Natural Color",
-              "Product Type": "Sea Food Product"
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole or fillet",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           },
           {
-            "id": 6027,
+            "id": 411,
             "name": "High Quality Frozen Tilapia (Gutted & Scaled)",
-            "price": "$2000.00 per ton",
-            "MOQ": "15 Tons",
-            "customizationOptions": [
-              "Customized logo (Min. order: 10000 kg)",
-              "Customized packaging (Min. order: 10000 kg)",
-              "Graphic customization (Min. order: 10000 kg)"
+            "price": "$2,800.00",
+            "offerPrice": "$2,200.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.20"
+              }
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "Premium quality frozen whole round tilapia fish, gutted and scaled. Exported directly from Bangladesh farms. Nutritious, rich in protein, and preserved with IQF freezing to ensure freshness. Ideal for grilling, frying, or steaming.",
-            "image": "/assets/fish/tilapia/tilapia3.png",
+            "customizationOptions": [
+              "Custom cleaning level",
+              "Portion sizing"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "High quality frozen tilapia, gutted and scaled for convenience.",
+            "image": "/assets/seafood/tilapia_gutted.jpg",
             "keyAttributes": {
-              "Packaging": "Bulk, Box",
-              "Shape": "Piece",
-              "Place of Origin": "Bangladesh",
-              "Storage Type": "at or below -18\u00b0 C",
-              "Specification": "FROZEN TILAPIA",
-              "Shelf Life": "24 months",
-              "Manufacturer": "Own Farm",
-              "Ingredients": "Frozen Tilapia",
-              "Content": "Frozen Tilapia",
-              "Address": "Bangladesh",
-              "Instruction for use": "Cook before eat",
-              "Brand": "Custom",
-              "Model Number": "None",
-              "Drying Process": "FD",
-              "Weight (kg)": "100-200, 200-300, 300-500, 500-800, 800G+",
-              "Additives": "None",
-              "Freezing Process": "IQF",
-              "Max. Moisture (%)": "5-30%",
-              "Part": "Whole",
-              "PH Value": "None",
-              "Preservation Process": "Water",
-              "Size (cm)": "15",
-              "Style": "Frozen",
-              "Feature": "Organic, Vitamins, Nutritious",
-              "Grade": "A",
-              "MOQ": "15 Tons",
-              "Processing": "Round, IQF",
-              "Package": "Bulk Pack 10kg/ctn",
-              "Packing": "Custom Packing",
-              "Quality": "High Quality"
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Gutted and scaled",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Vacuum packs in cartons",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item"
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
             },
-            "priceSource": "US market reference (B2B average)"
-          }
-        ]
-      },
-      {
-        "id": 505,
-        "name": "Pacific Mackerel Fish",
-        "products": [
-          {
-            "id": 6028,
-            "name": "Frozen Pacific Mackerel",
-            "price": "$1000.00 per ton",
-            "customizationOptions": [
-              "Customized logo (Min. order: 10,000 kg)",
-              "Graphic customization (Min. order: 10,000 kg)",
-              "Customized packaging (Min. order: 10,000 kg)"
-            ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Contact supplier for details.",
-            "description": "Frozen Pacific mackerel, caught from deep sea and processed under HACCP standards. Packed in 10kg cartons. Shelf life of 2 years at -18\u00b0C. OEM Branding and packaging customization available. Perfect for grilling, baking, or steaming.",
-            "image": "/assets/fish/pacific-mackerel/pacific-mackerel.png",
-            "keyAttributes": {
-              "Product Code": "NA",
-              "Brand": "Custom",
-              "Manufacturer": "Asian Import and Export Co., LTD",
-              "Place of Origin": "Bangladesh",
-              "Weight": "0.4-0.7 kg",
-              "Size": "25-30 cm",
-              "Style": "Frozen",
-              "Feature": [
-                "Nutritious",
-                "Omega-3",
-                "High Protein"
-              ],
-              "Specification": "Frozen Whole Pacific Mackerel",
-              "Shelf Life": "2 years",
-              "Storage Type": "Keep frozen under -18\u00b0C",
-              "Processing": "IQF",
-              "Part": "Whole",
-              "Content": "Frozen Pacific mackerel",
-              "Ingredients": "Frozen Pacific mackerel",
-              "Model": "NA",
-              "Variety": "Marine Fish",
-              "Packing": "10 KGS/CTN",
-              "InstructionForUse": "Cook thoroughly",
-              "PaymentTerm": "T/T",
-              "Taste": "Delicious",
-              "ProductType": "Seafood",
-              "Origin": "Bangladesh",
-              "MOQ": "15 Tons"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Single item",
-              "deliveryTime": "7-14 days"
-            },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International seafood market reference"
           }
         ]
       }
@@ -11011,91 +11378,49 @@
   },
   {
     "id": 6,
-    "name": "Wood",
-    "icon": "🪵",
+    "name": "Wood Products",
+    "icon": "🌲",
     "subcategories": [
       {
         "id": 601,
         "name": "Wood Pellets",
         "products": [
           {
-            "id": 6029,
+            "id": 501,
             "name": "Premium Wood Pellets",
-            "price": "$180.00 per ton",
-            "customizationOptions": [
-              "Customized logo (Min. order: 20 metric tons)",
-              "Customized packaging (Min. order: 20 metric tons)",
-              "Graphic customization (Min. order: 20 metric tons)"
+            "price": "$220.00",
+            "offerPrice": "$180.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 1,
+                "maxQuantity": null,
+                "pricePerTon": "$180.00"
+              }
             ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "High-quality Pine Wood Pellets suitable for cooking fuel. Made from 100% pine wood with low ash content and excellent caloric value. Available in 6mm and 8mm diameter, 6-15mm length, packed in 15kg or 20kg PP bags. Supplied in bulk with customizable options for logo, packaging, and graphics.",
-            "image": "/assets/wood/premium.png",
+            "customizationOptions": [
+              "Custom packaging sizes",
+              "Brand labeling (Min. order: 10 tons)"
+            ],
+            "shipping": "Bulk container or bagged shipping. Contact supplier for details.",
+            "description": "High-quality wood pellets for heating and industrial use.",
+            "image": "/assets/wood/wood_pellets.jpg",
             "keyAttributes": {
-              "Application": "Cooking Fuel",
-              "Shape": "Briquette",
-              "Place of Origin": "Fujian, China",
-              "Density": "0.55-0.65g/ml",
-              "Diameter": "6mm/8mm",
-              "Length": "6-15mm",
-              "Calory (J)": 4500,
-              "Moisture (%)": 6,
-              "Brand": "Custom",
-              "Model Number": "LF-RSKL-0040",
-              "Ash Content (%)": 2,
-              "Product Name": "Pine Wood Pellet",
-              "Quality": "100% Wood Pellet Bio Fuels",
-              "Wood Type": "PINE WOOD TREE",
-              "Package": "Customer Requirements",
-              "Color": "Wood Color",
-              "Size": "6mm 8mm Diameter",
-              "Delivery Time": "7-15 Days",
-              "Packaging Details": "15kgs / 20kg PP Bags",
-              "MOQ": "100 Tons"
+              "Material": "Wood",
+              "Type": "Pellets",
+              "Diameter": "6-8 mm",
+              "Length": "10-30 mm",
+              "Moisture Content": "<10%",
+              "Ash Content": "<1%",
+              "Calorific Value": "≥4.7 kWh/kg",
+              "MOQ": "1 ton",
+              "Packaging": "15kg bags or bulk",
+              "Origin": "Sustainable forestry"
             },
             "packagingAndDelivery": {
-              "sellingUnits": "Single item"
+              "sellingUnits": "Per ton",
+              "deliveryTime": "14-30 days"
             },
-            "priceSource": "US market reference (B2B average)"
-          },
-          {
-            "id": 6030,
-            "name": "Standard Wood Pellets",
-            "price": "$180.00 per ton",
-            "MOQ": "10 Tons",
-            "customizationOptions": [
-              "Graphic customization (Min. order: 20 tons)",
-              "Customized packaging (Min. order: 20 tons)",
-              "Customized logo (Min. order: 20 tons)"
-            ],
-            "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "European standard quality A1 biomass wood pellets, made from pine and hardwood sticks. High-calorific, environmentally friendly, and safe for human use. Available in 6-8mm diameter, lengths up to 40mm, and packed in ton bags or 25kg woven bags for bulk shipping.",
-            "image": "/assets/wood/standard.png",
-            "keyAttributes": {
-              "Application": "Heating System",
-              "Shape": "Stick",
-              "Place of Origin": "Belgium",
-              "Density": "680-1100 Kcal/kg",
-              "Diameter": "6-8mm",
-              "Length": "1-40mm",
-              "Calory (J)": 4600,
-              "Moisture (%)": "5-10",
-              "Brand": "Custom ",
-              "Model Number": "Wood Pellet / 6mm/8mm",
-              "Ash Content (%)": "0.5-3.0",
-              "Product Name": "Wood Pellet",
-              "Materials": "Pine & miscellaneous wood mixed, no additives, environmentally friendly",
-              "Sulfur content (%)": "\u22640.05",
-              "Chlorine (%)": "\u22640.05",
-              "MOQ": "100 Tons",
-              "Size": "6mm 8mm Diameter",
-              "Ash Fusion Temperature": "\u22651150\u00b0C",
-              "Nitrogen content (dry basis %)": "\u22640.5",
-              "Packing": "By ton bag 24 tons/container 40\u2019HC; 25kg woven bag, 24 tons/container 40\u2019HC; No packing 26 tons/container"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Single item"
-            },
-            "priceSource": "US market reference (B2B average)"
+            "priceSource": "International biomass market reference"
           }
         ]
       }
