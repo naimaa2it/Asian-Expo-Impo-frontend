@@ -187,14 +187,36 @@ const ProductCatalog = ({ isHomePage = false }) => {
           </div>
         )}
 
-        <h1 className="text-3xl font-bold text-teal-800 mb-8 text-center">
+        <h1 className="text-3xl font-bold text-teal-800 mb-2 mt-14 text-center">
           Product Catalog
         </h1>
+
+        {/* Animated Horizontal Line - Centered */}
+        <div className="flex justify-center mb-8 -mt-1">
+          <div className="relative h-1 w-1/5 overflow-hidden bg-gray-200 rounded-full">
+            <div className="absolute h-full w-1/4 animate-marquee bg-gradient-to-r from-teal-400 via-teal-600 to-teal-400 rounded-full"></div>
+          </div>
+        </div>
+
+        {/* You can add this style tag globally or in your global CSS */}
+        <style jsx global>{`
+          @keyframes marquee {
+            0% {
+              transform: translateX(-100%);
+            }
+            100% {
+              transform: translateX(400%);
+            }
+          }
+          .animate-marquee {
+            animation: marquee 3s linear infinite;
+          }
+        `}</style>
 
         <div className="flex flex-col lg:flex-row gap-4">
           {/* Left Sidebar - Company Info */}
           <div className="lg:w-1/4">
-          <div className="bg-white rounded-lg shadow-md sticky top-[76px] max-h-[calc(100vh-100px)] overflow-auto">
+            <div className="bg-white rounded-lg shadow-md sticky top-[76px] max-h-[calc(100vh-100px)] overflow-auto">
               {/* Replace the static image with the slider */}
               <div className="h-full">
                 <ProductSlider />
@@ -211,7 +233,7 @@ const ProductCatalog = ({ isHomePage = false }) => {
             {categories.map((category, categoryIndex) => (
               <div key={category.id} className="mb-12">
                 {/* Category Header */}
-                <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-t-lg p-6 shadow-lg">
+                <div className="bg-gradient-to-r from-teal-500 to-teal-800 rounded-t-lg p-4 shadow-lg">
                   <h2 className="text-2xl font-bold text-white flex items-center">
                     <span className="mr-3 text-3xl">{category.icon}</span>
                     {category.name}
@@ -219,8 +241,8 @@ const ProductCatalog = ({ isHomePage = false }) => {
                 </div>
 
                 {/* Subcategories Grid */}
-                <div className="bg-white rounded-b-lg shadow-md p-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="bg-white rounded-b-lg shadow-md p-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {category.subcategories?.map((subcategory) => {
                       // Get the first product image as subcategory representative
                       const representativeImage = subcategory.products?.[0]?.image || '/assets/placeholder.png';
@@ -241,7 +263,6 @@ const ProductCatalog = ({ isHomePage = false }) => {
                           <h3 className="text-center font-semibold text-gray-800 group-hover:text-teal-600 transition-colors">
                             {subcategory.name}
                           </h3>
-
                         </div>
                       );
                     })}
