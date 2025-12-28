@@ -26,29 +26,38 @@ const Navbar = () => {
   const productCategories = [
     {
       name: "Vehicle Parts & Accessories",
+      categorySlug: "Vehicle-Parts-and-Accessories",
       items: [
         "Truck Tires",
         "Golf Cart",
         "Rim",
         "Electric Bike",
-        "Other Parts",
       ],
     },
     {
+      name: "Frozen Seafood",
+      categorySlug: "Frozen-Seafood",
+      items: ["Eel", "Crab", "Shrimp", "Tilapia"],
+    },
+    {
       name: "Metals & Metal Products",
+      categorySlug: "Metals-and-Metal-Products",
       items: ["Copper Scrap", "Cathode Copper", "Aluminum Metal"],
     },
     {
       name: "Dry Food",
+      categorySlug: "Dry-Food",
       items: ["Rice", "Sugar", "Nuts"],
     },
     {
-      name: "Wood",
-      items: ["Wood Pellets"],
+      name: "Agriculture",
+      categorySlug: "Agriculture",
+      items: ["Fresh Potatoes", "Fresh Onion"],
     },
     {
-      name: "Agriculture",
-      items: ["Fresh Potatoes", "Fresh Onion", "Organic Tea"],
+      name: "Wood Products",
+      categorySlug: "Wood-Products",
+      items: ["Wood Pellets"],
     },
   ];
 
@@ -57,35 +66,9 @@ const Navbar = () => {
     return name.replace(/\s+/g, '-');
   };
 
-  // Mapping for navbar items to filter parameters
-  const productCategoryMapping = {
-    "Truck Tires": "Truck Tires",
-    "Golf Cart": "Golf Cart",
-    Rim: "Rim",
-    "Electric Bike": "Electric Bike",
-    "Other Parts": "Other Parts",
-    "Copper Scrap": "Copper Scrap",
-    "Cathode Copper": "Cathode Copper",
-    "Aluminum Metal": "Aluminum Metal",
-    Rice: "Rice",
-    Sugar: "Sugar",
-    Nuts: "Nuts",
-    "Cashew Nuts": "Cashew Nuts",
-    "Almond Nuts": "Almond Nuts",
-    "Wood Pellets": "Wood Pellets",
-    "Fresh Potatoes": "Fresh Potatoes",
-    "Fresh Onion": "Fresh Onion",
-    "Organic Tea": "Organic Tea",
-  };
-
-  const handleProductClick = (productName) => {
-    const mappedCategory = productCategoryMapping[productName];
-    if (mappedCategory) {
-      const slug = nameToSlug(mappedCategory);
-      navigate(`/products/c/${slug}`);
-    } else {
-      navigate(`/products?search=${encodeURIComponent(productName)}`);
-    }
+  const handleProductClick = (categorySlug, subcategoryName) => {
+    const subcategorySlug = nameToSlug(subcategoryName);
+    navigate(`/products/c/${categorySlug}/${subcategorySlug}`);
     setIsProductsOpen(false);
     setIsMenuOpen(false);
   };
@@ -161,7 +144,25 @@ const Navbar = () => {
                       {productCategories[0].items.map((item, i) => (
                         <button
                           key={i}
-                          onClick={() => handleProductClick(item)}
+                          onClick={() => handleProductClick(productCategories[0].categorySlug, item)}
+                          className="block w-full text-left py-1 px-2 hover:bg-teal-50 rounded text-xs text-gray-700"
+                        >
+                          {item}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Seafood */}
+                  <div className="flex-1">
+                    <h3 className="text-sm font-bold text-teal-800 pb-1 mb-2 border-b border-teal-200">
+                      Seafood
+                    </h3>
+                    <div className="space-y-0.5">
+                      {productCategories[1].items.map((item, i) => (
+                        <button
+                          key={i}
+                          onClick={() => handleProductClick(productCategories[1].categorySlug, item)}
                           className="block w-full text-left py-1 px-2 hover:bg-teal-50 rounded text-xs text-gray-700"
                         >
                           {item}
@@ -176,10 +177,10 @@ const Navbar = () => {
                       Metals
                     </h3>
                     <div className="space-y-0.5">
-                      {productCategories[1].items.map((item, i) => (
+                      {productCategories[2].items.map((item, i) => (
                         <button
                           key={i}
-                          onClick={() => handleProductClick(item)}
+                          onClick={() => handleProductClick(productCategories[2].categorySlug, item)}
                           className="block w-full text-left py-1 px-2 hover:bg-teal-50 rounded text-xs text-gray-700"
                         >
                           {item}
@@ -194,28 +195,10 @@ const Navbar = () => {
                       Dry Food
                     </h3>
                     <div className="space-y-0.5">
-                      {productCategories[2].items.map((item, i) => (
-                        <button
-                          key={i}
-                          onClick={() => handleProductClick(item)}
-                          className="block w-full text-left py-1 px-2 hover:bg-amber-50 rounded text-xs text-gray-700"
-                        >
-                          {item}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Wood */}
-                  <div className="flex-1">
-                    <h3 className="text-sm font-bold text-teal-800 pb-1 mb-2 border-b border-teal-200">
-                      Wood
-                    </h3>
-                    <div className="space-y-0.5">
                       {productCategories[3].items.map((item, i) => (
                         <button
                           key={i}
-                          onClick={() => handleProductClick(item)}
+                          onClick={() => handleProductClick(productCategories[3].categorySlug, item)}
                           className="block w-full text-left py-1 px-2 hover:bg-amber-50 rounded text-xs text-gray-700"
                         >
                           {item}
@@ -233,8 +216,26 @@ const Navbar = () => {
                       {productCategories[4].items.map((item, i) => (
                         <button
                           key={i}
-                          onClick={() => handleProductClick(item)}
+                          onClick={() => handleProductClick(productCategories[4].categorySlug, item)}
                           className="block w-full text-left py-1 px-2 hover:bg-teal-50 rounded text-xs text-gray-700"
+                        >
+                          {item}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Wood */}
+                  <div className="flex-1">
+                    <h3 className="text-sm font-bold text-teal-800 pb-1 mb-2 border-b border-teal-200">
+                      Wood
+                    </h3>
+                    <div className="space-y-0.5">
+                      {productCategories[5].items.map((item, i) => (
+                        <button
+                          key={i}
+                          onClick={() => handleProductClick(productCategories[5].categorySlug, item)}
+                          className="block w-full text-left py-1 px-2 hover:bg-amber-50 rounded text-xs text-gray-700"
                         >
                           {item}
                         </button>
@@ -258,12 +259,6 @@ const Navbar = () => {
 
           <Link to="/aboutUs" className={getLinkClasses("/aboutUs")}>
             About Us
-          </Link>
-          <Link to="/shipping" className={getLinkClasses("/shipping")}>
-            Shipping & Delivery
-          </Link>
-          <Link to="/privacy" className={getLinkClasses("/privacy")}>
-            Privacy Policy
           </Link>
           <Link to="/contact" className={getLinkClasses("/contact")}>
             Contact
@@ -334,16 +329,16 @@ const Navbar = () => {
               {isProductsOpen && (
                 <div className="pl-2 bg-teal-700 rounded p-1">
                   {productCategories.map((category, index) => (
-                    <div key={index}>
-                      <p className="text-xs font-semibold text-teal-200 mb-0">
+                    <div key={index} className="mb-2">
+                      <p className="text-xs font-semibold text-teal-200 mb-1">
                         {category.name}
                       </p>
                       <div>
                         {category.items.map((item, i) => (
                           <button
                             key={i}
-                            onClick={() => handleProductClick(item)}
-                            className="block w-full text-left text-white py-0 px-1 hover:bg-teal-600 text-xs"
+                            onClick={() => handleProductClick(category.categorySlug, item)}
+                            className="block w-full text-left text-white py-1 px-1 hover:bg-teal-600 text-xs"
                           >
                             {item}
                           </button>
@@ -375,20 +370,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
-            </Link>
-            <Link
-              to="/shipping"
-              className={getMobileLinkClasses("/shipping")}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Shipping & Delivery
-            </Link>
-            <Link
-              to="/privacy"
-              className={getMobileLinkClasses("/privacy")}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Privacy Policy
             </Link>
             <Link
               to="/contact"
