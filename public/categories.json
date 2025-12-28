@@ -9,7 +9,7 @@
         "name": "Truck Tires",
         "products": [
           {
-            "id": 1,
+            "id": 1001,
             "name": "Double Coin RR202 10.00R20 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -60,7 +60,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 2,
+            "id": 1002,
             "name": "Double Coin RR202 10.00R20 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -112,7 +112,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 3,
+            "id": 1003,
             "name": "Double Coin RR202 10.00R20 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -164,7 +164,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4,
+            "id": 1004,
             "name": "Double Coin FT105 10R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
@@ -213,7 +213,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 5,
+            "id": 1005,
             "name": "Double Coin FT105 10R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
@@ -265,7 +265,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6,
+            "id": 1006,
             "name": "Double Coin FT105 10R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$134.00",
@@ -317,7 +317,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 7,
+            "id": 1007,
             "name": "Double Coin FT105 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$130.00",
@@ -368,7 +368,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 8,
+            "id": 1008,
             "name": "Double Coin FT105 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$127.00",
@@ -420,7 +420,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 9,
+            "id": 1009,
             "name": "Double Coin FT105 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$127.00",
@@ -472,7 +472,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 10,
+            "id": 1010,
             "name": "Double Coin RR202 11.00R22 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
@@ -539,7 +539,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 11,
+            "id": 1011,
             "name": "Double Coin RR202 11.00R22 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
@@ -607,7 +607,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 12,
+            "id": 1012,
             "name": "Double Coin RR202 11.00R22 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
@@ -675,7 +675,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 13,
+            "id": 1013,
             "name": "Double Coin RLB400 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$134.00",
@@ -742,7 +742,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 14,
+            "id": 1014,
             "name": "Double Coin RLB400 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$130.00",
@@ -810,7 +810,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 15,
+            "id": 1015,
             "name": "Double Coin RLB400 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$132.00",
@@ -878,7 +878,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 16,
+            "id": 1016,
             "name": "Double Coin FT105 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$132.00",
@@ -930,7 +930,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 17,
+            "id": 1017,
             "name": "Double Coin FT105 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$132.00",
@@ -982,7 +982,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 18,
+            "id": 1018,
             "name": "Double Coin FT105 12.00R15 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
@@ -1031,7 +1031,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 19,
+            "id": 1019,
             "name": "Double Coin FT105 120.00R15 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
@@ -1083,7 +1083,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 20,
+            "id": 1020,
             "name": "Double Coin FT105 120.00R15 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$128.00",
@@ -1135,7 +1135,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 21,
+            "id": 1021,
             "name": "Double Coin RR202 12.00R24 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1187,7 +1187,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 22,
+            "id": 1022,
             "name": "Double Coin RR202 12.00R24 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1239,7 +1239,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 23,
+            "id": 1023,
             "name": "Double Coin RR202 12.00R24 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1291,7 +1291,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 24,
+            "id": 1024,
             "name": "Double Coin FT105 12R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1343,7 +1343,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 25,
+            "id": 1025,
             "name": "Double Coin FT105 12R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1395,7 +1395,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 26,
+            "id": 1026,
             "name": "Double Coin FT105 12R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$154.00",
@@ -1447,7 +1447,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 27,
+            "id": 1027,
             "name": "Double Coin RR202 12R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
@@ -1499,7 +1499,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 28,
+            "id": 1028,
             "name": "Double Coin RR202 12R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
@@ -1551,7 +1551,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 29,
+            "id": 1029,
             "name": "Double Coin RR202 12R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$154.00",
@@ -1603,7 +1603,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 30,
+            "id": 1030,
             "name": "Double Coin FT105 215/75R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -1652,7 +1652,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 31,
+            "id": 1031,
             "name": "Double Coin FT105 215/75R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -1704,7 +1704,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 32,
+            "id": 1032,
             "name": "Double Coin FT105 215/75R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -1756,7 +1756,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 33,
+            "id": 1033,
             "name": "Double Coin FT105 225/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -1805,7 +1805,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 34,
+            "id": 1034,
             "name": "Double Coin FT105 225/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -1857,7 +1857,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 35,
+            "id": 1035,
             "name": "Double Coin FT105 225/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -1909,7 +1909,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 36,
+            "id": 1036,
             "name": "Double Coin FT105 235/75R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -1958,7 +1958,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 37,
+            "id": 1037,
             "name": "Double Coin FT105 235/75R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -2010,7 +2010,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 38,
+            "id": 1038,
             "name": "Double Coin FT105 235/75R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -2062,7 +2062,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 39,
+            "id": 1039,
             "name": "Double Coin FT105 245/70R17.5 Drive Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -2111,7 +2111,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 40,
+            "id": 1040,
             "name": "Double Coin FT105 245/70R17.5 Steer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -2163,7 +2163,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 41,
+            "id": 1041,
             "name": "Double Coin FT105 245/70R17.5 Trailer Tire",
             "price": "$220.00",
             "offerPrice": "$144.00",
@@ -2215,7 +2215,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 42,
+            "id": 1042,
             "name": "Double Coin FT105 245/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2264,7 +2264,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 43,
+            "id": 1043,
             "name": "Double Coin FT105 245/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2316,7 +2316,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 44,
+            "id": 1044,
             "name": "Double Coin FT105 245/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2368,7 +2368,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 45,
+            "id": 1045,
             "name": "Double Coin FT105 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$141.00",
@@ -2417,7 +2417,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 46,
+            "id": 1046,
             "name": "Double Coin FT105 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$138.00",
@@ -2469,7 +2469,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 47,
+            "id": 1047,
             "name": "Double Coin FT105 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$138.00",
@@ -2521,7 +2521,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 48,
+            "id": 1048,
             "name": "Double Coin FT105 265/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2570,7 +2570,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 49,
+            "id": 1049,
             "name": "Double Coin FT105 265/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2622,7 +2622,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 50,
+            "id": 1050,
             "name": "Double Coin FT105 265/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2674,7 +2674,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 51,
+            "id": 1051,
             "name": "Double Coin RLB4 275/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
@@ -2742,7 +2742,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 52,
+            "id": 1052,
             "name": "Double Coin RLB4 275/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
@@ -2810,7 +2810,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 53,
+            "id": 1053,
             "name": "Double Coin RLB4 275/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$144.00",
@@ -2878,7 +2878,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 54,
+            "id": 1054,
             "name": "Double Coin FT105 285/70R19.5 Drive Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2930,7 +2930,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 55,
+            "id": 1055,
             "name": "Double Coin FT105 285/70R19.5 Steer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -2982,7 +2982,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 56,
+            "id": 1056,
             "name": "Double Coin FT105 285/70R19.5 Trailer Tire",
             "price": "$260.00",
             "offerPrice": "$144.00",
@@ -3034,7 +3034,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 57,
+            "id": 1057,
             "name": "Double Coin RR202 285/75R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3086,7 +3086,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 58,
+            "id": 1058,
             "name": "Double Coin RR202 285/75R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3138,7 +3138,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 59,
+            "id": 1059,
             "name": "Double Coin RR202 285/75R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3206,7 +3206,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 60,
+            "id": 1060,
             "name": "Double Coin RLB400 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
@@ -3273,7 +3273,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 61,
+            "id": 1061,
             "name": "Double Coin FT105 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$140.00",
@@ -3341,7 +3341,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 62,
+            "id": 1062,
             "name": "Double Coin FT105 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$140.00",
@@ -3409,7 +3409,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 63,
+            "id": 1063,
             "name": "Double Coin RLB4 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
@@ -3461,7 +3461,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 64,
+            "id": 1064,
             "name": "Double Coin RLB4 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
@@ -3513,7 +3513,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 65,
+            "id": 1065,
             "name": "Double Coin RLB4 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$144.00",
@@ -3565,7 +3565,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 66,
+            "id": 1066,
             "name": "Double Coin RR202 305/75R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3617,7 +3617,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 67,
+            "id": 1067,
             "name": "Double Coin RR202 305/75R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3669,7 +3669,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 68,
+            "id": 1068,
             "name": "Double Coin RR202 305/75R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$144.00",
@@ -3721,7 +3721,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 69,
+            "id": 1069,
             "name": "Double Coin RLB4 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$138.00",
@@ -3789,7 +3789,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 70,
+            "id": 1070,
             "name": "Double Coin RLB4 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$130.00",
@@ -3857,7 +3857,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 71,
+            "id": 1071,
             "name": "Double Coin RLB4 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$130.00",
@@ -3925,7 +3925,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 72,
+            "id": 1072,
             "name": "Double Coin RR202 385/55R19.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -3977,7 +3977,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 73,
+            "id": 1073,
             "name": "Double Coin RR202 385/55R19.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -4029,7 +4029,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 74,
+            "id": 1074,
             "name": "Double Coin RR202 385/55R19.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -4081,7 +4081,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 75,
+            "id": 1075,
             "name": "Double Coin RR202 385/55R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -4133,7 +4133,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 76,
+            "id": 1076,
             "name": "Double Coin RR202 385/55R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -4185,7 +4185,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 77,
+            "id": 1077,
             "name": "Double Coin RR202 385/55R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$190.00",
@@ -4237,7 +4237,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 78,
+            "id": 1078,
             "name": "Double Coin RR202 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$215.00",
@@ -4289,7 +4289,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 79,
+            "id": 1079,
             "name": "Double Coin RR202 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$212.00",
@@ -4341,7 +4341,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 80,
+            "id": 1080,
             "name": "Double Coin RR202 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$212.00",
@@ -4393,7 +4393,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 81,
+            "id": 1081,
             "name": "Double Coin FT105 9R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -4442,7 +4442,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 82,
+            "id": 1082,
             "name": "Double Coin FT105 9R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -4494,7 +4494,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 83,
+            "id": 1083,
             "name": "Double Coin FT105 9R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -4546,7 +4546,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 84,
+            "id": 1084,
             "name": "Firestone FD694 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$200.00",
@@ -4598,7 +4598,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 85,
+            "id": 1085,
             "name": "Firestone FS560 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$231.00",
@@ -4650,7 +4650,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 86,
+            "id": 1086,
             "name": "Firestone FT413 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$193.00",
@@ -4702,7 +4702,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 87,
+            "id": 1087,
             "name": "Firestone FD694 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$210.00",
@@ -4770,7 +4770,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 88,
+            "id": 1088,
             "name": "Firestone FS560 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$238.00",
@@ -4838,7 +4838,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 89,
+            "id": 1089,
             "name": "Firestone FT413 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$200.00",
@@ -4906,7 +4906,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 90,
+            "id": 1090,
             "name": "Firestone FD694 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$215.00",
@@ -4958,7 +4958,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 91,
+            "id": 1091,
             "name": "Firestone FS560 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$242.00",
@@ -5010,7 +5010,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 92,
+            "id": 1092,
             "name": "Firestone FT413 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$207.00",
@@ -5062,7 +5062,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 93,
+            "id": 1093,
             "name": "Firestone FD694 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$205.00",
@@ -5114,7 +5114,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 94,
+            "id": 1094,
             "name": "Firestone FS560 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$235.00",
@@ -5166,7 +5166,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 95,
+            "id": 1095,
             "name": "Firestone FT413 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$196.00",
@@ -5218,7 +5218,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 96,
+            "id": 1096,
             "name": "Firestone FD694 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$225.00",
@@ -5286,7 +5286,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 97,
+            "id": 1097,
             "name": "Firestone FS560 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$249.00",
@@ -5354,7 +5354,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 98,
+            "id": 1098,
             "name": "Firestone FT413 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
@@ -5422,7 +5422,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 99,
+            "id": 1099,
             "name": "Firestone FD694 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$230.00",
@@ -5474,7 +5474,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 100,
+            "id": 1100,
             "name": "Firestone FS560 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$252.00",
@@ -5526,7 +5526,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 101,
+            "id": 1101,
             "name": "Firestone FT413 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$203.00",
@@ -5578,7 +5578,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 102,
+            "id": 1102,
             "name": "Firestone FD694 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$235.00",
@@ -5646,7 +5646,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 103,
+            "id": 1103,
             "name": "Firestone FS560 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$256.00",
@@ -5714,7 +5714,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 104,
+            "id": 1104,
             "name": "Firestone FT413 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$214.00",
@@ -5782,7 +5782,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 105,
+            "id": 1105,
             "name": "Firestone FD694 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$250.00",
@@ -5834,7 +5834,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 106,
+            "id": 1106,
             "name": "Firestone FS560 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$245.00",
@@ -5886,7 +5886,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 107,
+            "id": 1107,
             "name": "Firestone FT413 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$228.00",
@@ -5938,7 +5938,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 108,
+            "id": 1108,
             "name": "Goodyear Endurance RSA 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$205.00",
@@ -6006,7 +6006,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 109,
+            "id": 1109,
             "name": "Goodyear G390 LHS 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$202.00",
@@ -6074,7 +6074,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 110,
+            "id": 1110,
             "name": "Goodyear G316 LHT 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$202.00",
@@ -6142,7 +6142,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 111,
+            "id": 1111,
             "name": "Goodyear Endurance RSA HD 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$205.00",
@@ -6210,7 +6210,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 112,
+            "id": 1112,
             "name": "Goodyear G395 XT LHS 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$202.00",
@@ -6278,7 +6278,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 113,
+            "id": 1113,
             "name": "Goodyear G316 LHT 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$202.00",
@@ -6346,7 +6346,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 114,
+            "id": 1114,
             "name": "Goodyear Endurance RSA HD 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$208.00",
@@ -6398,7 +6398,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 115,
+            "id": 1115,
             "name": "Goodyear G395 XT LHS 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$205.00",
@@ -6450,7 +6450,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 116,
+            "id": 1116,
             "name": "Goodyear G316 LHT 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$205.00",
@@ -6502,7 +6502,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 117,
+            "id": 1117,
             "name": "Goodyear Regional RSD 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$225.00",
@@ -6554,7 +6554,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 118,
+            "id": 1118,
             "name": "Goodyear G395 LHS 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$222.00",
@@ -6606,7 +6606,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 119,
+            "id": 1119,
             "name": "Goodyear G315 LHT 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$222.00",
@@ -6658,7 +6658,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 120,
+            "id": 1120,
             "name": "Goodyear Fuel Max RSA 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
@@ -6726,7 +6726,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 121,
+            "id": 1121,
             "name": "Goodyear G397 LHS 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
@@ -6794,7 +6794,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 122,
+            "id": 1122,
             "name": "Goodyear G317 LHT 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
@@ -6862,7 +6862,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 123,
+            "id": 1123,
             "name": "Goodyear Fuel Max RSA+ 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$210.00",
@@ -6914,7 +6914,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 124,
+            "id": 1124,
             "name": "Goodyear G397 LHS 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
@@ -6965,7 +6965,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 125,
+            "id": 1125,
             "name": "Goodyear G317 LHT 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$207.00",
@@ -7016,7 +7016,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 126,
+            "id": 1126,
             "name": "Goodyear Fuel Max RSA 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$210.00",
@@ -7067,7 +7067,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 127,
+            "id": 1127,
             "name": "Goodyear G397 LHS 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$207.00",
@@ -7118,7 +7118,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 128,
+            "id": 1128,
             "name": "Goodyear G318 LHT 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$207.00",
@@ -7169,7 +7169,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 129,
+            "id": 1129,
             "name": "Goodyear WideBase RSA 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$240.00",
@@ -7220,7 +7220,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 130,
+            "id": 1130,
             "name": "Goodyear WideBase LHS 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$238.00",
@@ -7271,7 +7271,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 131,
+            "id": 1131,
             "name": "Goodyear WideBase LHT 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$238.00",
@@ -7322,7 +7322,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 132,
+            "id": 1132,
             "name": "Michelin X Line Energy D 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$125.00",
@@ -7372,7 +7372,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 133,
+            "id": 1133,
             "name": "Michelin X Multi S 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$122.00",
@@ -7422,7 +7422,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 134,
+            "id": 1134,
             "name": "Michelin X Multi T 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$122.00",
@@ -7472,7 +7472,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 135,
+            "id": 1135,
             "name": "Michelin X Line Energy D 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$131.00",
@@ -7522,7 +7522,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 136,
+            "id": 1136,
             "name": "Michelin X Multi S 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$128.00",
@@ -7572,7 +7572,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 137,
+            "id": 1137,
             "name": "Michelin X Multi T 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$128.00",
@@ -7622,7 +7622,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 138,
+            "id": 1138,
             "name": "Michelin X Line Energy D 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$132.00",
@@ -7672,7 +7672,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 139,
+            "id": 1139,
             "name": "Michelin X Multi S 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$128.00",
@@ -7722,7 +7722,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 140,
+            "id": 1140,
             "name": "Michelin X Multi T 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$128.00",
@@ -7772,7 +7772,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 141,
+            "id": 1141,
             "name": "Michelin X Line Energy D 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$134.00",
@@ -7820,7 +7820,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 142,
+            "id": 1142,
             "name": "Michelin X Multi S 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$132.00",
@@ -7868,7 +7868,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 143,
+            "id": 1143,
             "name": "Michelin X Multi T 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$132.00",
@@ -7916,7 +7916,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 144,
+            "id": 1144,
             "name": "Michelin X Multi D 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$148.00",
@@ -7966,7 +7966,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 145,
+            "id": 1145,
             "name": "Michelin X Multi S 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$145.00",
@@ -8016,7 +8016,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 146,
+            "id": 1146,
             "name": "Michelin X Multi T 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$145.00",
@@ -8066,7 +8066,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 147,
+            "id": 1147,
             "name": "Michelin X Multi D 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$155.00",
@@ -8116,7 +8116,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 148,
+            "id": 1148,
             "name": "Michelin X Multi S 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$152.00",
@@ -8166,7 +8166,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 149,
+            "id": 1149,
             "name": "Michelin X Multi T 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$152.00",
@@ -8216,7 +8216,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 150,
+            "id": 1150,
             "name": "Michelin X Multi D 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$135.00",
@@ -8267,7 +8267,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 151,
+            "id": 1151,
             "name": "Michelin X Multi S 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$132.00",
@@ -8318,7 +8318,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 152,
+            "id": 1152,
             "name": "Michelin X Multi T 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$132.00",
@@ -8369,7 +8369,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 153,
+            "id": 1153,
             "name": "Michelin X One XDN2 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$160.00",
@@ -8420,7 +8420,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 154,
+            "id": 1154,
             "name": "Michelin X One XSN 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$158.00",
@@ -8471,7 +8471,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 155,
+            "id": 1155,
             "name": "Michelin X One XTA 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$158.00",
@@ -8522,7 +8522,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 156,
+            "id": 1156,
             "name": "Roadlux RD550 10R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$125.00",
@@ -8572,7 +8572,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 157,
+            "id": 1157,
             "name": "Roadlux RS500 10R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$122.00",
@@ -8622,7 +8622,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 158,
+            "id": 1158,
             "name": "Roadlux RT400 10R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$122.00",
@@ -8672,7 +8672,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 159,
+            "id": 1159,
             "name": "Roadlux RD550 11R22.5 Drive Tire",
             "price": "$280.00",
             "offerPrice": "$128.00",
@@ -8722,7 +8722,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 160,
+            "id": 1160,
             "name": "Roadlux RS500 11R22.5 Steer Tire",
             "price": "$280.00",
             "offerPrice": "$123.00",
@@ -8772,7 +8772,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 161,
+            "id": 1161,
             "name": "Roadlux RT400 11R22.5 Trailer Tire",
             "price": "$280.00",
             "offerPrice": "$123.00",
@@ -8822,7 +8822,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 162,
+            "id": 1162,
             "name": "Roadlux RD550 11R24.5 Drive Tire",
             "price": "$360.00",
             "offerPrice": "$130.00",
@@ -8872,7 +8872,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 163,
+            "id": 1163,
             "name": "Roadlux RS500 11R24.5 Steer Tire",
             "price": "$360.00",
             "offerPrice": "$128.00",
@@ -8922,7 +8922,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 164,
+            "id": 1164,
             "name": "Roadlux RT400 11R24.5 Trailer Tire",
             "price": "$360.00",
             "offerPrice": "$128.00",
@@ -8972,7 +8972,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 165,
+            "id": 1165,
             "name": "Roadlux RD500 255/70R22.5 Drive Tire",
             "price": "$250.00",
             "offerPrice": "$138.00",
@@ -9020,7 +9020,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 166,
+            "id": 1166,
             "name": "Roadlux RS450 255/70R22.5 Steer Tire",
             "price": "$250.00",
             "offerPrice": "$135.00",
@@ -9068,7 +9068,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 167,
+            "id": 1167,
             "name": "Roadlux RT350 255/70R22.5 Trailer Tire",
             "price": "$250.00",
             "offerPrice": "$135.00",
@@ -9116,7 +9116,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 168,
+            "id": 1168,
             "name": "Roadlux RD600 295/75R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$135.00",
@@ -9166,7 +9166,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 169,
+            "id": 1169,
             "name": "Roadlux RS500 295/75R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$132.00",
@@ -9216,7 +9216,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 170,
+            "id": 1170,
             "name": "Roadlux RT450 295/75R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$132.00",
@@ -9266,7 +9266,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 171,
+            "id": 1171,
             "name": "Roadlux RD600 295/80R22.5 Drive Tire",
             "price": "$300.00",
             "offerPrice": "$135.00",
@@ -9316,7 +9316,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 172,
+            "id": 1172,
             "name": "Roadlux RS550 295/80R22.5 Steer Tire",
             "price": "$300.00",
             "offerPrice": "$132.00",
@@ -9366,7 +9366,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 173,
+            "id": 1173,
             "name": "Roadlux RT450 295/80R22.5 Trailer Tire",
             "price": "$300.00",
             "offerPrice": "$132.00",
@@ -9416,7 +9416,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 174,
+            "id": 1174,
             "name": "Roadlux RD600 315/80R22.5 Drive Tire",
             "price": "$350.00",
             "offerPrice": "$135.00",
@@ -9467,7 +9467,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 175,
+            "id": 1175,
             "name": "Roadlux RS550 315/80R22.5 Steer Tire",
             "price": "$350.00",
             "offerPrice": "$132.00",
@@ -9517,7 +9517,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 176,
+            "id": 1176,
             "name": "Roadlux RT450 315/80R22.5 Trailer Tire",
             "price": "$350.00",
             "offerPrice": "$132.00",
@@ -9567,7 +9567,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 177,
+            "id": 1177,
             "name": "Roadlux RD650 385/65R22.5 Drive Tire",
             "price": "$430.00",
             "offerPrice": "$180.00",
@@ -9618,7 +9618,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 178,
+            "id": 1178,
             "name": "Roadlux RS600 385/65R22.5 Steer Tire",
             "price": "$430.00",
             "offerPrice": "$177.00",
@@ -9669,7 +9669,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 179,
+            "id": 1179,
             "name": "Roadlux RT500 385/65R22.5 Trailer Tire",
             "price": "$430.00",
             "offerPrice": "$177.00",
@@ -9726,7 +9726,7 @@
         "name": "Golf Cart",
         "products": [
           {
-            "id": 4180,
+            "id": 1180,
             "name": "2-Seater High Speed Golf Cart",
             "price": "$250.00",
             "offerPrice": "$3,454.00",
@@ -9749,12 +9749,12 @@
               "Suspension": "Stable Suspension with Comfort Design",
               "Chassis": "Metal Frame",
               "Dimension": "3550*1200*2080mm",
-              "Curb Weight": "\u2265500kg",
+              "Curb Weight": "≥500kg",
               "Maximum Speed": "30-50 km/h",
-              "Driving Mileage": "\u226590km",
+              "Driving Mileage": "≥90km",
               "Charge Time": "3-5h",
               "Carrying Capacity": "520kg",
-              "Turning Radius": "\u22643.5 m",
+              "Turning Radius": "≤3.5 m",
               "Minimum Ground Clearance": "150-200mm",
               "Use": "Golf Cart, Buggy Car",
               "MOQ": "10",
@@ -9768,7 +9768,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4181,
+            "id": 1181,
             "name": "4-Seater High Speed Golf Cart",
             "price": "$250.00",
             "offerPrice": "$3,599.00",
@@ -9789,9 +9789,9 @@
               "Brake System": "Front drum + Rear drum",
               "Tire Size": "100/90-10",
               "Dimension": "2800*1200*1980mm",
-              "Curb Weight": "\u2265500kg",
-              "Maximum Speed": "\u226430 km/h",
-              "Driving Mileage": "\u226590 km",
+              "Curb Weight": "≥500kg",
+              "Maximum Speed": "≤30 km/h",
+              "Driving Mileage": "≥90 km",
               "Charge Time": "5-7h",
               "MOQ": "10",
               "Minimum Ground Clearance": "100-150mm",
@@ -9808,7 +9808,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4182,
+            "id": 1182,
             "name": "6-Seater High Speed Golf Cart",
             "price": "$250.00",
             "offerPrice": "$5,200.00",
@@ -9832,7 +9832,7 @@
               "Chassis": "Steel",
               "Dimension": "3442*1200*1850mm",
               "Curb Weight": "400-500kg",
-              "Maximum Speed": "\u226430 km/h",
+              "Maximum Speed": "≤30 km/h",
               "Driving Mileage": "70-90km",
               "Charge Time": "7-9h",
               "Turning Radius": "3 m",
@@ -9851,7 +9851,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4183,
+            "id": 1183,
             "name": "High Performance 8 Seater Sightseeing Golf Cart",
             "price": "$250.00",
             "offerPrice": "$5,985.00",
@@ -9877,7 +9877,7 @@
               "Steering": "Rack & Pinion",
               "Tire & Rim": "23x10-14, 6PLY off-road with 14x7 aluminum rims",
               "Dimension": "1150*2550*750 mm",
-              "Curb Weight": "\u2265500kg",
+              "Curb Weight": "≥500kg",
               "Maximum Speed": "45 km/h",
               "Driving Mileage": "80-90km",
               "Charge Time": "3-5h",
@@ -9908,7 +9908,7 @@
         "name": "Rim",
         "products": [
           {
-            "id": 4184,
+            "id": 1184,
             "name": "Alloy Rims",
             "price": "$250.00",
             "offerPrice": "$66.00",
@@ -9959,7 +9959,7 @@
                 "Supports various PCD and ET specifications"
               ],
               "MOQ": "250 pieces",
-              "Packaging": "Cartons and pallet (air/sea freight) or as per buyer\u2019s requirement",
+              "Packaging": "Cartons and pallet (air/sea freight) or as per buyer’s requirement",
               "Origin": "Zhejiang, China",
               "Brand": "Custom",
               "Category": "Tire Rim",
@@ -9980,7 +9980,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4185,
+            "id": 1185,
             "name": "Steel Rims",
             "price": "$250.00",
             "offerPrice": "$7.90",
@@ -9993,7 +9993,7 @@
             "description": "Wheelsky black E-coated steel rims for passenger cars, trailers, and light trucks. Durable corrosion-resistant finish with multiple PCD and offset options. Full Branding/packaging customization available.",
             "image": "/assets/Vehicle/rim/steel.png",
             "keyAttributes": {
-              "Diameter": "11\u201315 Inch",
+              "Diameter": "11–15 Inch",
               "Place of Origin": "Shandong, China",
               "PCD Options": [
                 "100mm",
@@ -10016,7 +10016,7 @@
               "Brand": "YAOLILAI",
               "Purpose": "Replacement / Repair",
               "Product Name": "Steel Wheel Rims",
-              "Size": "4J\u00d712",
+              "Size": "4J×12",
               "Color": "Custom-made",
               "Type": "Light Truck / Trailer Rims",
               "Offset": "Custom-made",
@@ -10027,7 +10027,7 @@
             },
             "packagingAndDelivery": {
               "sellingUnits": "Single item",
-              "singlePackageSize": "35\u00d735\u00d712.5 cm",
+              "singlePackageSize": "35×35×12.5 cm",
               "singleGrossWeight": "6 kg",
               "Package": "Pallet"
             },
@@ -10040,7 +10040,7 @@
         "name": "Electric Bike",
         "products": [
           {
-            "id": 4186,
+            "id": 1186,
             "name": "Mountain E-Bike",
             "price": "$250.00",
             "offerPrice": "$389.00",
@@ -10050,7 +10050,7 @@
               "Parts customization (motor, tires, frame colors, etc.)"
             ],
             "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "This electric mountain bike is a game-changer! Powered by a 48V 500W rear hub motor and a 48V 12.75AH lithium battery, it delivers strong performance and a max speed of 45km/h. The battery is detachable, making charging and swapping easy. With hydraulic disc brakes, suspension fork, and fat 20\u00d74'' tires, it handles sand, snow, and rough roads with ease. Perfect for daily commutes and adventurous rides.",
+            "description": "This electric mountain bike is a game-changer! Powered by a 48V 500W rear hub motor and a 48V 12.75AH lithium battery, it delivers strong performance and a max speed of 45km/h. The battery is detachable, making charging and swapping easy. With hydraulic disc brakes, suspension fork, and fat 20×4'' tires, it handles sand, snow, and rough roads with ease. Perfect for daily commutes and adventurous rides.",
             "image": "/assets/Vehicle/bikes/mountain_ebike.png",
             "keyAttributes": {
               "Type": "Mountain / Hybrid Electric Bike",
@@ -10061,9 +10061,9 @@
               "Suspension": "Front suspension fork + Rear suspension (165mm center distance, 1200 pounds)",
               "Frame Material": "Steel",
               "Wheel Size": "20 inch",
-              "Tire": "20\u00d74 inch fat tires",
+              "Tire": "20×4 inch fat tires",
               "Max Speed": "45km/h",
-              "Range per Charge": "36\u201345 km",
+              "Range per Charge": "36–45 km",
               "Charging Time": ">3 hours",
               "Gears": "7-Speed Shimano",
               "Braking System": "Hydraulic Disc Brake (Front & Rear)",
@@ -10075,21 +10075,21 @@
               "Saddle Height": "870mm",
               "Total Length": "1710mm",
               "Wheelbase": "1190mm",
-              "Foot Height": "170\u2013520mm",
+              "Foot Height": "170–520mm",
               "Handlebar Height": "1020mm",
               "Handlebar Length": "680mm",
               "Head Tube Length": "175mm",
               "Saddle Length": "590mm",
               "Max Load Capacity": "120 kg",
-              "Recommended Rider Height": "1.7\u20132m",
-              "Recommended Rider Weight": "70\u2013100kg",
+              "Recommended Rider Height": "1.7–2m",
+              "Recommended Rider Weight": "70–100kg",
               "Place of Origin": "Zhejiang, China",
               "Brand": "Xiaole",
               "Model Number": "EBA-216",
               "Style": "European, Sport, Classic",
               "Certification": "CE",
               "Age Group": "Adults, Teens",
-              "Charger": "54.6V\u20132A",
+              "Charger": "54.6V–2A",
               "Watt-Hour": "500W",
               "MOQ": "10"
             },
@@ -10101,7 +10101,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 4187,
+            "id": 1187,
             "name": "City E-Bike",
             "price": "$250.00",
             "offerPrice": "$274.98",
@@ -10111,7 +10111,7 @@
               "Custom Packaging"
             ],
             "shipping": "Shipping fee and delivery date to be negotiated. Chat with supplier for more details.",
-            "description": "The MOTOVELO City Eco KG9 is a lightweight and efficient 24-inch commuter e-bike designed for urban workers. Powered by a 48V 500W brushless motor and a removable 7.6Ah lithium battery, it offers a range of 30\u201360 km depending on throttle or PAS mode. With Shimano 7-speed gears, mechanical disc brakes, and front suspension, it ensures smooth rides through city streets. The colorful LCD display, LED headlight, and Bluetooth integration add convenience and safety. Perfect for eco-friendly daily commutes.",
+            "description": "The MOTOVELO City Eco KG9 is a lightweight and efficient 24-inch commuter e-bike designed for urban workers. Powered by a 48V 500W brushless motor and a removable 7.6Ah lithium battery, it offers a range of 30–60 km depending on throttle or PAS mode. With Shimano 7-speed gears, mechanical disc brakes, and front suspension, it ensures smooth rides through city streets. The colorful LCD display, LED headlight, and Bluetooth integration add convenience and safety. Perfect for eco-friendly daily commutes.",
             "image": "/assets/Vehicle/bikes/city.png",
             "keyAttributes": {
               "Type": "EBIKE, City bike, Road Bike",
@@ -10120,15 +10120,15 @@
               "Battery": "48V 7.6Ah Lithium Battery",
               "Battery Type": "Lithium Ion",
               "Battery Position": "Removable",
-              "Charging Time": "3\u20135 hours",
-              "Range per Charge": "30\u201360 km (Throttle: 30-40 km, PAS: up to 60 km)",
+              "Charging Time": "3–5 hours",
+              "Range per Charge": "30–60 km (Throttle: 30-40 km, PAS: up to 60 km)",
               "Voltage": "48V",
-              "Torque": "60\u201370 Nm",
+              "Torque": "60–70 Nm",
               "Frame Material": "Steel Alloy",
               "Suspension": "Front Suspension",
               "Brake System": "Mechanical Disc Brakes",
               "Wheel Size": "24 inches",
-              "Tire": "24 \u00d7 2.35 inch",
+              "Tire": "24 × 2.35 inch",
               "Gears": "7 Speed Shimano (Trigger Shifter)",
               "Display": "Color LCD Display",
               "Smart Features": "Bluetooth, Odometer, Digital Display, PAS Sensor",
@@ -10160,6 +10160,506 @@
     ]
   },
   {
+    "id": 5,
+    "name": "Frozen Seafood",
+    "icon": "🐟",
+    "subcategories": [
+      {
+        "id": 301,
+        "name": "Eel",
+        "products": [
+          {
+            "id": 1202,
+            "name": "Premium Quality Frozen Eel Fish",
+            "price": "$2,500.00",
+            "offerPrice": "$1,800.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$2,500.00"
+              }
+            ],
+            "customizationOptions": [
+              "Custom cutting and packing (Min. order: 100 kg)",
+              "Glazing options available"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen eel fish, ideal for restaurants and distributors.",
+            "image": "/assets/fish/eel/eel1.png",
+            "keyAttributes": {
+              "Species": "Eel",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, gutted",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1203,
+            "name": "Wholesale Fresh Live Eel Fish (Conger Pike)",
+            "price": "$3,000.00",
+            "offerPrice": "$2,500.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,500.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$3,000.00"
+              }
+            ],
+            "customizationOptions": [
+              "Live delivery arrangements",
+              "Custom size selection"
+            ],
+            "shipping": "Live seafood transport. Special arrangements required.",
+            "description": "Wholesale fresh live eel fish (Conger Pike) for high-end markets.",
+            "image": "/assets/fish/eel/eel2.png",
+            "keyAttributes": {
+              "Species": "Conger Pike",
+              "Type": "Live/Fresh",
+              "Quality": "Premium",
+              "Processing": "Live",
+              "Storage": "Live tanks",
+              "MOQ": "50 kg",
+              "Packaging": "Specialized live transport",
+              "Origin": "Wild catch/Aquaculture",
+              "Shelf Life": "Live delivery only"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "7-14 days (special arrangements)"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1204,
+            "name": "Wholesale Frozen Freshwater Eel (Unagi, Conger Pike)",
+            "price": "$2,800.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,500.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$2,000.00"
+              }
+            ],
+            "customizationOptions": [
+              "Fillet or whole options",
+              "Marinade options available"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Wholesale frozen freshwater eel including Unagi and Conger Pike varieties.",
+            "image": "/assets/fish/eel/eel3.png",
+            "keyAttributes": {
+              "Species": "Freshwater Eel (Unagi/Conger Pike)",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole or fillet",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Vacuum packs in cartons",
+              "Origin": "Freshwater aquaculture",
+              "Shelf Life": "24 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          }
+        ]
+      },
+      {
+        "id": 302,
+        "name": "Crab",
+        "products": [
+          {
+            "id": 1205,
+            "name": "Frozen Mud Crab (Wholesale Premium Quality)",
+            "price": "$7,000.00",
+            "offerPrice": "$6,500.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$6,500.00"
+              }
+            ],
+            "customizationOptions": [
+              "Whole or cleaned options",
+              "Size grading available"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen mud crabs for wholesale distribution.",
+            "image": "/assets/fish/crab/crab.png",
+            "keyAttributes": {
+              "Species": "Mud Crab",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, live frozen",
+              "Storage": "-18°C or below",
+              "MOQ": "50 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Coastal regions",
+              "Shelf Life": "18 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1206,
+            "name": "Frozen Sea & Mud Crab (Premium Quality Wholesale)",
+            "price": "$9,500.00",
+            "offerPrice": "$9,000.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$9,000.00"
+              }
+            ],
+            "customizationOptions": [
+              "Mixed or single species orders",
+              "Cleaning and processing options"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen sea and mud crab mix for wholesale markets.",
+            "image": "/assets/fish/crab/crab2.png",
+            "keyAttributes": {
+              "Species": "Mixed (Sea Crab & Mud Crab)",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, live frozen",
+              "Storage": "-18°C or below",
+              "MOQ": "50 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Coastal regions",
+              "Shelf Life": "18 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1207,
+            "name": "Premium Quality Hot Sale Live Mud Crabs",
+            "price": "$10,000.00",
+            "offerPrice": "$9,000.00",
+            "pricingTiers": [
+              {
+                "minWeight": "150",
+                "maxWeight": "250",
+                "pricePerKg": "$1,800.00"
+              },
+              {
+                "minWeight": "250",
+                "maxWeight": "350",
+                "pricePerKg": "$9,000.00"
+              }
+            ],
+            "customizationOptions": [
+              "Live delivery arrangements",
+              "Size selection"
+            ],
+            "shipping": "Live seafood transport. Special arrangements required.",
+            "description": "Premium quality live mud crabs for high-end restaurants and markets.",
+            "image": "/assets/fish/crab/crab3.png",
+            "keyAttributes": {
+              "Species": "Mud Crab",
+              "Type": "Live",
+              "Quality": "Premium",
+              "Processing": "Live",
+              "Storage": "Live tanks",
+              "MOQ": "20 kg",
+              "Packaging": "Specialized live transport",
+              "Origin": "Coastal aquaculture",
+              "Shelf Life": "Live delivery only"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "7-14 days (special arrangements)"
+            },
+            "priceSource": "International seafood market reference"
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "name": "Shrimp",
+        "products": [
+          {
+            "id": 1208,
+            "name": "Premium Frozen Shrimp (Various Sizes)",
+            "price": "$11,000.00",
+            "offerPrice": "$10,000.00",
+            "pricingTiers": [
+              {
+                "size": "4/6 (Very Large)",
+                "pricePerTon": "$10,000.00"
+              },
+              {
+                "size": "6/8",
+                "pricePerTon": "$9,750.00"
+              },
+              {
+                "size": "8/12",
+                "pricePerTon": "$8,250.00"
+              },
+              {
+                "size": "13/15",
+                "pricePerTon": "$6,950.00"
+              },
+              {
+                "size": "16/20",
+                "pricePerTon": "$6,450.00"
+              },
+              {
+                "size": "U/5 (Extra Huge)",
+                "pricePerTon": "$6,450.00"
+              }
+            ],
+            "customizationOptions": [
+              "Peeled and deveined options",
+              "Tail-on or tail-off",
+              "IQF (Individually Quick Frozen)"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Premium quality frozen shrimp in various sizes for export markets.",
+            "image": "/assets/fish/shrimp/shrimp.png",
+            "keyAttributes": {
+              "Species": "Shrimp/Prawn",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Whole, peeled options",
+              "Storage": "-18°C or below",
+              "MOQ": "1 ton",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per ton",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1209,
+            "name": "Frozen Shrimp (Medium Sizes)",
+            "price": "$6,000.00",
+            "offerPrice": "$5,800.00",
+            "pricingTiers": [
+              {
+                "size": "26/30",
+                "pricePerKg": "$5.70"
+              },
+              {
+                "size": "31/40",
+                "pricePerKg": "$5.80"
+              },
+              {
+                "size": "41/50",
+                "pricePerKg": "$5.80"
+              },
+              {
+                "size": "51/60",
+                "pricePerKg": "$5.70"
+              },
+              {
+                "size": "61/70",
+                "pricePerKg": "$5.55"
+              },
+              {
+                "size": "71/90",
+                "pricePerKg": "$5.50"
+              },
+              {
+                "size": "91/120",
+                "pricePerKg": "$5.40"
+              }
+            ],
+            "customizationOptions": [
+              "Block frozen or IQF",
+              "Peeled and deveined options"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Medium size frozen shrimp for various culinary applications.",
+            "image": "/assets/fish/shrimp/shrimp2.png",
+            "keyAttributes": {
+              "Species": "Shrimp",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole, peeled options",
+              "Storage": "-18°C or below",
+              "MOQ": "500 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "24 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          }
+        ]
+      },
+      {
+        "id": 304,
+        "name": "Tilapia",
+        "products": [
+          {
+            "id": 1210,
+            "name": "Whole Tilapia",
+            "price": "$2,500.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.00"
+              }
+            ],
+            "customizationOptions": [
+              "Size grading",
+              "Gutted or whole"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Whole tilapia fish, fresh frozen for wholesale distribution.",
+            "image": "/assets/fish/tilapia/tilapia.png",
+            "keyAttributes": {
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1211,
+            "name": "Frozen Tilapia",
+            "price": "$2,500.00",
+            "offerPrice": "$2,000.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.00"
+              }
+            ],
+            "customizationOptions": [
+              "Fillet or whole options",
+              "Skin-on or skinless"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "Frozen tilapia for various culinary applications.",
+            "image": "/assets/fish/tilapia/tilapia2.png",
+            "keyAttributes": {
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Standard",
+              "Processing": "Whole or fillet",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Carton boxes",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          },
+          {
+            "id": 1212,
+            "name": "High Quality Frozen Tilapia (Gutted & Scaled)",
+            "price": "$2,800.00",
+            "offerPrice": "$2,200.00",
+            "pricingTiers": [
+              {
+                "minQuantity": 100,
+                "maxQuantity": null,
+                "pricePerKg": "$2.20"
+              }
+            ],
+            "customizationOptions": [
+              "Custom cleaning level",
+              "Portion sizing"
+            ],
+            "shipping": "Refrigerated container shipping. Contact supplier for details.",
+            "description": "High quality frozen tilapia, gutted and scaled for convenience.",
+            "image": "/assets/fish/tilapia/tilapia3.png",
+            "keyAttributes": {
+              "Species": "Tilapia",
+              "Type": "Frozen",
+              "Quality": "Premium",
+              "Processing": "Gutted and scaled",
+              "Storage": "-18°C or below",
+              "MOQ": "100 kg",
+              "Packaging": "Vacuum packs in cartons",
+              "Origin": "Aquaculture farms",
+              "Shelf Life": "18 months"
+            },
+            "packagingAndDelivery": {
+              "sellingUnits": "Per kilogram",
+              "deliveryTime": "21-35 days"
+            },
+            "priceSource": "International seafood market reference"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 2,
     "name": "Metals and Metal Products",
     "icon": "🔩",
@@ -10169,7 +10669,7 @@
         "name": "Copper Scrap",
         "products": [
           {
-            "id": 6001,
+            "id": 1188,
             "name": "High Purity Copper Wire Scrap (99.99%)",
             "price": "$4,300.00",
             "offerPrice": "$4,300.00",
@@ -10211,7 +10711,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6002,
+            "id": 1189,
             "name": "Aluminum Copper Scrap Block Power",
             "price": "$4,300.00",
             "offerPrice": "$4,300.00",
@@ -10258,7 +10758,7 @@
         "name": "Cathode Copper",
         "products": [
           {
-            "id": 6003,
+            "id": 1190,
             "name": "Grade A Cathode Copper",
             "price": "$4700.00",
             "bulkPricing": [
@@ -10293,7 +10793,7 @@
         "name": "Aluminum Metal",
         "products": [
           {
-            "id": 6004,
+            "id": 1191,
             "name": "High Quality Carbon Steel Sheet",
             "price": "$2700.00",
             "bulkPricing": [
@@ -10335,7 +10835,7 @@
         "name": "Rice",
         "products": [
           {
-            "id": 6006,
+            "id": 1192,
             "name": "Basmati Rice",
             "price": "$1200.00",
             "customizationOptions": [
@@ -10382,7 +10882,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6007,
+            "id": 1193,
             "name": "Jasmine Rice",
             "price": "$530.00",
             "customizationOptions": [
@@ -10436,7 +10936,7 @@
         "name": "Sugar",
         "products": [
           {
-            "id": 6008,
+            "id": 1194,
             "name": "White Refined Sugar",
             "price": "$380.00",
             "customizationOptions": [
@@ -10485,7 +10985,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6009,
+            "id": 1195,
             "name": "Brown Sugar",
             "price": "$365.00",
             "customizationOptions": [
@@ -10539,7 +11039,7 @@
         "name": "Nuts",
         "products": [
           {
-            "id": 6010,
+            "id": 1196,
             "name": "Roasted Cashew Nuts",
             "price": "$4400.00",
             "customizationOptions": [
@@ -10586,7 +11086,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6011,
+            "id": 1197,
             "name": "Roasted Almond Nuts",
             "price": "$2400.00",
             "customizationOptions": [
@@ -10650,7 +11150,7 @@
         "name": "Fresh Potatoes",
         "products": [
           {
-            "id": 6012,
+            "id": 1198,
             "name": "Red Potatoes",
             "price": "$340.00",
             "customizationOptions": [
@@ -10695,7 +11195,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6013,
+            "id": 1199,
             "name": "Russet Potatoes",
             "price": "$340 / Ton",
             "customizationOptions": [
@@ -10746,7 +11246,7 @@
         "name": "Fresh Onion",
         "products": [
           {
-            "id": 6014,
+            "id": 1200,
             "name": "Fresh Onions Wholesale",
             "price": "$440 / Ton",
             "pricingTiers": [
@@ -10812,7 +11312,7 @@
             "priceSource": "US market reference (B2B average)"
           },
           {
-            "id": 6015,
+            "id": 1201,
             "name": "Red Onions",
             "price": "$440 / Ton",
             "pricingTiers": [
@@ -10877,506 +11377,6 @@
     ]
   },
   {
-    "id": 5,
-    "name": "Frozen Seafood",
-    "icon": "🐟",
-    "subcategories": [
-      {
-        "id": 301,
-        "name": "Eel",
-        "products": [
-          {
-            "id": 401,
-            "name": "Premium Quality Frozen Eel Fish",
-            "price": "$2,500.00",
-            "offerPrice": "$1,800.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,800.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$2,500.00"
-              }
-            ],
-            "customizationOptions": [
-              "Custom cutting and packing (Min. order: 100 kg)",
-              "Glazing options available"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Premium quality frozen eel fish, ideal for restaurants and distributors.",
-            "image": "/assets/fish/eel/eel1.png",
-            "keyAttributes": {
-              "Species": "Eel",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Whole, gutted",
-              "Storage": "-18°C or below",
-              "MOQ": "100 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "24 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 402,
-            "name": "Wholesale Fresh Live Eel Fish (Conger Pike)",
-            "price": "$3,000.00",
-            "offerPrice": "$2,500.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,500.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$3,000.00"
-              }
-            ],
-            "customizationOptions": [
-              "Live delivery arrangements",
-              "Custom size selection"
-            ],
-            "shipping": "Live seafood transport. Special arrangements required.",
-            "description": "Wholesale fresh live eel fish (Conger Pike) for high-end markets.",
-            "image": "/assets/fish/eel/eel2.png",
-            "keyAttributes": {
-              "Species": "Conger Pike",
-              "Type": "Live/Fresh",
-              "Quality": "Premium",
-              "Processing": "Live",
-              "Storage": "Live tanks",
-              "MOQ": "50 kg",
-              "Packaging": "Specialized live transport",
-              "Origin": "Wild catch/Aquaculture",
-              "Shelf Life": "Live delivery only"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "7-14 days (special arrangements)"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 403,
-            "name": "Wholesale Frozen Freshwater Eel (Unagi, Conger Pike)",
-            "price": "$2,800.00",
-            "offerPrice": "$2,000.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,500.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$2,000.00"
-              }
-            ],
-            "customizationOptions": [
-              "Fillet or whole options",
-              "Marinade options available"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Wholesale frozen freshwater eel including Unagi and Conger Pike varieties.",
-            "image": "/assets/fish/eel/eel3.png",
-            "keyAttributes": {
-              "Species": "Freshwater Eel (Unagi/Conger Pike)",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Whole or fillet",
-              "Storage": "-18°C or below",
-              "MOQ": "100 kg",
-              "Packaging": "Vacuum packs in cartons",
-              "Origin": "Freshwater aquaculture",
-              "Shelf Life": "24 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          }
-        ]
-      },
-      {
-        "id": 302,
-        "name": "Crab",
-        "products": [
-          {
-            "id": 404,
-            "name": "Frozen Mud Crab (Wholesale Premium Quality)",
-            "price": "$7,000.00",
-            "offerPrice": "$6,500.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,800.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$6,500.00"
-              }
-            ],
-            "customizationOptions": [
-              "Whole or cleaned options",
-              "Size grading available"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Premium quality frozen mud crabs for wholesale distribution.",
-            "image": "/assets/fish/crab/crab.png",
-            "keyAttributes": {
-              "Species": "Mud Crab",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Whole, live frozen",
-              "Storage": "-18°C or below",
-              "MOQ": "50 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Coastal regions",
-              "Shelf Life": "18 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 405,
-            "name": "Frozen Sea & Mud Crab (Premium Quality Wholesale)",
-            "price": "$9,500.00",
-            "offerPrice": "$9,000.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,800.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$9,000.00"
-              }
-            ],
-            "customizationOptions": [
-              "Mixed or single species orders",
-              "Cleaning and processing options"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Premium quality frozen sea and mud crab mix for wholesale markets.",
-            "image": "/assets/fish/crab/crab2.png",
-            "keyAttributes": {
-              "Species": "Mixed (Sea Crab & Mud Crab)",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Whole, live frozen",
-              "Storage": "-18°C or below",
-              "MOQ": "50 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Coastal regions",
-              "Shelf Life": "18 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 406,
-            "name": "Premium Quality Hot Sale Live Mud Crabs",
-            "price": "$10,000.00",
-            "offerPrice": "$9,000.00",
-            "pricingTiers": [
-              {
-                "minWeight": "150",
-                "maxWeight": "250",
-                "pricePerKg": "$1,800.00"
-              },
-              {
-                "minWeight": "250",
-                "maxWeight": "350",
-                "pricePerKg": "$9,000.00"
-              }
-            ],
-            "customizationOptions": [
-              "Live delivery arrangements",
-              "Size selection"
-            ],
-            "shipping": "Live seafood transport. Special arrangements required.",
-            "description": "Premium quality live mud crabs for high-end restaurants and markets.",
-            "image": "/assets/fish/crab/crab3.png",
-            "keyAttributes": {
-              "Species": "Mud Crab",
-              "Type": "Live",
-              "Quality": "Premium",
-              "Processing": "Live",
-              "Storage": "Live tanks",
-              "MOQ": "20 kg",
-              "Packaging": "Specialized live transport",
-              "Origin": "Coastal aquaculture",
-              "Shelf Life": "Live delivery only"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "7-14 days (special arrangements)"
-            },
-            "priceSource": "International seafood market reference"
-          }
-        ]
-      },
-      {
-        "id": 303,
-        "name": "Shrimp",
-        "products": [
-          {
-            "id": 407,
-            "name": "Premium Frozen Shrimp (Various Sizes)",
-            "price": "$11,000.00",
-            "offerPrice": "$10,000.00",
-            "pricingTiers": [
-              {
-                "size": "4/6 (Very Large)",
-                "pricePerTon": "$10,000.00"
-              },
-              {
-                "size": "6/8",
-                "pricePerTon": "$9,750.00"
-              },
-              {
-                "size": "8/12",
-                "pricePerTon": "$8,250.00"
-              },
-              {
-                "size": "13/15",
-                "pricePerTon": "$6,950.00"
-              },
-              {
-                "size": "16/20",
-                "pricePerTon": "$6,450.00"
-              },
-              {
-                "size": "U/5 (Extra Huge)",
-                "pricePerTon": "$6,450.00"
-              }
-            ],
-            "customizationOptions": [
-              "Peeled and deveined options",
-              "Tail-on or tail-off",
-              "IQF (Individually Quick Frozen)"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Premium quality frozen shrimp in various sizes for export markets.",
-            "image": "/assets/fish/shrimp/shrimp.png",
-            "keyAttributes": {
-              "Species": "Shrimp/Prawn",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Whole, peeled options",
-              "Storage": "-18°C or below",
-              "MOQ": "1 ton",
-              "Packaging": "Carton boxes",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "24 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per ton",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 408,
-            "name": "Frozen Shrimp (Medium Sizes)",
-            "price": "$6,000.00",
-            "offerPrice": "$5,800.00",
-            "pricingTiers": [
-              {
-                "size": "26/30",
-                "pricePerKg": "$5.70"
-              },
-              {
-                "size": "31/40",
-                "pricePerKg": "$5.80"
-              },
-              {
-                "size": "41/50",
-                "pricePerKg": "$5.80"
-              },
-              {
-                "size": "51/60",
-                "pricePerKg": "$5.70"
-              },
-              {
-                "size": "61/70",
-                "pricePerKg": "$5.55"
-              },
-              {
-                "size": "71/90",
-                "pricePerKg": "$5.50"
-              },
-              {
-                "size": "91/120",
-                "pricePerKg": "$5.40"
-              }
-            ],
-            "customizationOptions": [
-              "Block frozen or IQF",
-              "Peeled and deveined options"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Medium size frozen shrimp for various culinary applications.",
-            "image": "/assets/fish/shrimp/shrimp2.png",
-            "keyAttributes": {
-              "Species": "Shrimp",
-              "Type": "Frozen",
-              "Quality": "Standard",
-              "Processing": "Whole, peeled options",
-              "Storage": "-18°C or below",
-              "MOQ": "500 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "24 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          }
-        ]
-      },
-      {
-        "id": 304,
-        "name": "Tilapia",
-        "products": [
-          {
-            "id": 409,
-            "name": "Whole Tilapia",
-            "price": "$2,500.00",
-            "offerPrice": "$2,000.00",
-            "pricingTiers": [
-              {
-                "minQuantity": 100,
-                "maxQuantity": null,
-                "pricePerKg": "$2.00"
-              }
-            ],
-            "customizationOptions": [
-              "Size grading",
-              "Gutted or whole"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Whole tilapia fish, fresh frozen for wholesale distribution.",
-            "image": "/assets/fish/tilapia/tilapia.png",
-            "keyAttributes": {
-              "Species": "Tilapia",
-              "Type": "Frozen",
-              "Quality": "Standard",
-              "Processing": "Whole",
-              "Storage": "-18°C or below",
-              "MOQ": "100 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "18 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 410,
-            "name": "Frozen Tilapia",
-            "price": "$2,500.00",
-            "offerPrice": "$2,000.00",
-            "pricingTiers": [
-              {
-                "minQuantity": 100,
-                "maxQuantity": null,
-                "pricePerKg": "$2.00"
-              }
-            ],
-            "customizationOptions": [
-              "Fillet or whole options",
-              "Skin-on or skinless"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "Frozen tilapia for various culinary applications.",
-            "image": "/assets/fish/tilapia/tilapia2.png",
-            "keyAttributes": {
-              "Species": "Tilapia",
-              "Type": "Frozen",
-              "Quality": "Standard",
-              "Processing": "Whole or fillet",
-              "Storage": "-18°C or below",
-              "MOQ": "100 kg",
-              "Packaging": "Carton boxes",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "18 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          },
-          {
-            "id": 411,
-            "name": "High Quality Frozen Tilapia (Gutted & Scaled)",
-            "price": "$2,800.00",
-            "offerPrice": "$2,200.00",
-            "pricingTiers": [
-              {
-                "minQuantity": 100,
-                "maxQuantity": null,
-                "pricePerKg": "$2.20"
-              }
-            ],
-            "customizationOptions": [
-              "Custom cleaning level",
-              "Portion sizing"
-            ],
-            "shipping": "Refrigerated container shipping. Contact supplier for details.",
-            "description": "High quality frozen tilapia, gutted and scaled for convenience.",
-            "image": "/assets/fish/tilapia/tilapia3.png",
-            "keyAttributes": {
-              "Species": "Tilapia",
-              "Type": "Frozen",
-              "Quality": "Premium",
-              "Processing": "Gutted and scaled",
-              "Storage": "-18°C or below",
-              "MOQ": "100 kg",
-              "Packaging": "Vacuum packs in cartons",
-              "Origin": "Aquaculture farms",
-              "Shelf Life": "18 months"
-            },
-            "packagingAndDelivery": {
-              "sellingUnits": "Per kilogram",
-              "deliveryTime": "21-35 days"
-            },
-            "priceSource": "International seafood market reference"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": 6,
     "name": "Wood Products",
     "icon": "🌲",
@@ -11386,7 +11386,7 @@
         "name": "Wood Pellets",
         "products": [
           {
-            "id": 501,
+            "id": 1213,
             "name": "Standard Wood Pellets",
             "price": "$220.00",
             "offerPrice": "$180.00",
@@ -11423,7 +11423,7 @@
             "priceSource": "International biomass market reference"
           },
           {
-            "id": 501,
+            "id": 1214,
             "name": "Premium Wood Pellets",
             "price": "$220.00",
             "offerPrice": "$180.00",
