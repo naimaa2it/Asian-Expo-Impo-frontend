@@ -7,6 +7,7 @@ import ProductList from "./ProductList";
 import SearchSuggestion from "../Search/SearchSuggestion.jsx";
 import Image from "next/image";
 import ProductSlider from "./ProductSlider";
+import SearchPage from "../../../app/search/page";
 
 const ProductCatalog = ({ isHomePage = false }) => {
   const [categories, setCategories] = useState([]);
@@ -85,18 +86,16 @@ const ProductCatalog = ({ isHomePage = false }) => {
           Product Catalog
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-4">
           {/* Left Sidebar - Company Info */}
           <div className="lg:w-1/4">
-            <div className="bg-white rounded-lg shadow-md  sticky top-4">
-
-              
+          <div className="bg-white rounded-lg shadow-md sticky top-[76px] max-h-[calc(100vh-100px)] overflow-auto">
               {/* Replace the static image with the slider */}
-              <div className="mb-4">
+              <div className="h-full">
                 <ProductSlider />
               </div>
               
-              <p className="text-gray-600 text-sm  p-2">
+              <p className="text-gray-600 text-sm p-3 bg-white border-t border-gray-200">
                 Browse through our wide range of quality products across multiple categories.
               </p>
             </div>
@@ -137,9 +136,7 @@ const ProductCatalog = ({ isHomePage = false }) => {
                           <h3 className="text-center font-semibold text-gray-800 group-hover:text-teal-600 transition-colors">
                             {subcategory.name}
                           </h3>
-                          <p className="text-center text-sm text-gray-500 mt-1">
-                            {subcategory.products?.length || 0} Products
-                          </p>
+
                         </div>
                       );
                     })}
