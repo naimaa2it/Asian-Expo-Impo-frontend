@@ -231,7 +231,7 @@ const ProductCatalog = ({ isHomePage = false }) => {
           {/* Right Side - Categories Grid */}
           <div className="lg:w-3/4">
             {categories.map((category, categoryIndex) => (
-              <div key={category.id} className="mb-12">
+              <div key={category.id} className="mb-8">
                 {/* Category Header */}
                 <div className="bg-gradient-to-r from-teal-500 to-teal-800 rounded-t-lg p-4 shadow-lg">
                   <h2 className="text-2xl font-bold text-white flex items-center">

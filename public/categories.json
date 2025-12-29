@@ -10177,12 +10177,17 @@
               {
                 "minWeight": "150",
                 "maxWeight": "250",
-                "pricePerKg": "$1,800.00"
+                "pricePerKg": "$1,500.00-1,800.00"
               },
               {
                 "minWeight": "250",
                 "maxWeight": "350",
-                "pricePerKg": "$2,500.00"
+                "pricePerKg": "$1,800.00-2,000.00"
+              },
+              {
+                "minWeight": "350",
+                "maxWeight": "500+",
+                "pricePerKg": "$2,500.00-3,000.00"
               }
             ],
             "customizationOptions": [
@@ -10198,7 +10203,7 @@
               "Quality": "Premium",
               "Processing": "Whole, gutted",
               "Storage": "-18°C or below",
-              "MOQ": "100 kg",
+              "MOQ": "10 Ton",
               "Packaging": "Carton boxes",
               "Origin": "Aquaculture farms",
               "Shelf Life": "24 months"
@@ -10239,7 +10244,7 @@
               "Quality": "Premium",
               "Processing": "Live",
               "Storage": "Live tanks",
-              "MOQ": "50 kg",
+              "MOQ": "10 Ton",
               "Packaging": "Specialized live transport",
               "Origin": "Wild catch/Aquaculture",
               "Shelf Life": "Live delivery only"
@@ -10327,7 +10332,7 @@
               "Quality": "Premium",
               "Processing": "Whole, live frozen",
               "Storage": "-18°C or below",
-              "MOQ": "50 kg",
+              "MOQ": "10 Ton",
               "Packaging": "Carton boxes",
               "Origin": "Coastal regions",
               "Shelf Life": "18 months"
@@ -10368,7 +10373,7 @@
               "Quality": "Premium",
               "Processing": "Whole, live frozen",
               "Storage": "-18°C or below",
-              "MOQ": "50 kg",
+              "MOQ": "10 Ton",
               "Packaging": "Carton boxes",
               "Origin": "Coastal regions",
               "Shelf Life": "18 months"
@@ -10409,7 +10414,7 @@
               "Quality": "Premium",
               "Processing": "Live",
               "Storage": "Live tanks",
-              "MOQ": "20 kg",
+              "MOQ": "10 Ton",
               "Packaging": "Specialized live transport",
               "Origin": "Coastal aquaculture",
               "Shelf Life": "Live delivery only"
@@ -10526,7 +10531,7 @@
               "Quality": "Standard",
               "Processing": "Whole, peeled options",
               "Storage": "-18°C or below",
-              "MOQ": "500 kg",
+              "MOQ": "1 ton",
               "Packaging": "Carton boxes",
               "Origin": "Aquaculture farms",
               "Shelf Life": "24 months"
@@ -10568,7 +10573,7 @@
               "Quality": "Standard",
               "Processing": "Whole",
               "Storage": "-18°C or below",
-              "MOQ": "100 kg",
+              "MOQ": "15 Ton",
               "Packaging": "Carton boxes",
               "Origin": "Aquaculture farms",
               "Shelf Life": "18 months"
@@ -10604,7 +10609,7 @@
               "Quality": "Standard",
               "Processing": "Whole or fillet",
               "Storage": "-18°C or below",
-              "MOQ": "100 kg",
+              "MOQ": "15 Ton",
               "Packaging": "Carton boxes",
               "Origin": "Aquaculture farms",
               "Shelf Life": "18 months"
@@ -10640,7 +10645,7 @@
               "Quality": "Premium",
               "Processing": "Gutted and scaled",
               "Storage": "-18°C or below",
-              "MOQ": "100 kg",
+              "MOQ": "15 Ton",
               "Packaging": "Vacuum packs in cartons",
               "Origin": "Aquaculture farms",
               "Shelf Life": "18 months"
@@ -10696,7 +10701,7 @@
               "Copper Content (%)": "99%",
               "Supply Ability": "500 Tons per Month",
               "Grade": "A",
-              "MOQ": "1 Ton",
+              "MOQ": "5 Ton",
               "Processing": "Wire Scrap",
               "Package": "Bulk Ton Bags",
               "Quality": "High Quality"
@@ -10737,7 +10742,7 @@
               "Purity": "99.9% - 99.99%",
               "Supply Ability": "500 Tons per Month",
               "Grade": "A",
-              "MOQ": "1 Ton",
+              "MOQ": "5 Ton",
               "Processing": "Scrap Block",
               "Package": "Bulk Ton Bags",
               "Quality": "High Quality"
