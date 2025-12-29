@@ -642,6 +642,11 @@ const ProductDetails = () => {
                     Size({tier.size}) - price(<span className="font-semibold text-teal-700">{tier.pricePerTon}</span>)
                   </p>
                 ))}
+                {product.pricingTiers[0].pricePerTire !== undefined && product.pricingTiers.map((tier, index) => (
+                  <p key={index} className="text-gray-700 text-xs mb-1">
+                    {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} tires: <span className="font-semibold text-teal-700">{tier.pricePerTire}</span>
+                  </p>
+                ))}
                 {product.pricingTiers[0].minWeight !== undefined && (
                   <p className="text-xs text-amber-600 mt-2 font-medium">
                     *Final price varies by actual weight
