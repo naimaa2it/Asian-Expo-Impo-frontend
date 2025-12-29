@@ -251,7 +251,7 @@ const CheckoutPage = () => {
                     Payment Method *
                   </label>
                   <div className="space-y-2">
-                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors bg-white">
+                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-red-50 transition-colors bg-white">
                       <input
                         type="radio"
                         name="paymentMethod"
@@ -263,7 +263,7 @@ const CheckoutPage = () => {
                       <CreditCard className="w-5 h-5 ml-3 mr-2 text-gray-600" />
                       <span className="font-medium text-gray-900">Pay with Credit Card</span>
                     </label>
-                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-gray-50 transition-colors bg-white">
+                    <label className="flex items-center p-4 border-2 rounded-md cursor-pointer hover:bg-red-50 transition-colors bg-white">
                       <input
                         type="radio"
                         name="paymentMethod"
@@ -299,7 +299,7 @@ const CheckoutPage = () => {
                           src={item.image}
                           alt={item.name || 'Product'}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                       ) : (
                         <div className="w-full h-full flex items-center justify-center">
