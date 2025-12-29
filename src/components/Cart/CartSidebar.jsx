@@ -211,7 +211,7 @@ const CartSidebar = () => {
                               )}
                               
                               <p className="text-blue-600 font-bold text-sm mb-1">
-                                Total: {priceInfo.calculatedPrice}× {item.quantity} = ${priceInfo.calculatedPrice?.toFixed(2)}
+                                Total = ${priceInfo.calculatedPrice?.toFixed(2)}
                               </p>
                             </div>
                           );
