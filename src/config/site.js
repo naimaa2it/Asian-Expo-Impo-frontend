@@ -5,6 +5,7 @@ export const config = {
     whatsapp: '14379003996', // Format: country code + number (no spaces or special chars)
     phone: '+1 (437) 900-3996',
     email: 'info@asianimportexport.com',
+    salesEmail: 'sale@asianimportexport.com',
   },
 
   // Cart Settings

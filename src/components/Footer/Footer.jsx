@@ -51,6 +51,11 @@ const Footer = () => {
       text: "info@asianimportexport.com",
       link: "mailto:info@asianimportexport.com",
     },
+    {
+      icon: <FaEnvelope className="text-amber-400" />,
+      text: "sale@asianimportexport.com (Orders)",
+      link: "mailto:sale@asianimportexport.com",
+    },
   ];
 
   const socialLinks = [

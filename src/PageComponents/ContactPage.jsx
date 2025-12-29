@@ -164,9 +164,10 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-teal-800 mb-1">
-                      Email Address
+                      Email Addresses
                     </h3>
-                    <p className="text-gray-700">info@asianimportexport.com</p>
+                    <p className="text-gray-700">General: info@asianimportexport.com</p>
+                    <p className="text-gray-700">Orders: sale@asianimportexport.com</p>
                   </div>
                 </div>
 
