@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { config } from '@/config/site';
 import { useCart } from '@/context/CartContext';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
@@ -72,7 +73,7 @@ const CheckoutPage = () => {
       };
 
       // Send to backend
-      const response = await fetch('http://localhost:5000/api/send-invoice', {
+      const response = await fetch(`${config.email.backendUrl}/api/send-invoice`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
