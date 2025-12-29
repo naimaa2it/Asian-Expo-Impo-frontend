@@ -626,6 +626,7 @@ const ProductDetails = () => {
             {/* Pricing Tiers Display */}
             {product.pricingTiers && product.pricingTiers.length > 0 && (
               <div className="mb-4 max-h-32 overflow-y-auto">
+                {/* Label for pricing type */}
                 <p className="text-gray-600 text-sm mb-2 font-semibold">
                   {product.pricingTiers[0].minWeight !== undefined
                     ? 'Price by Weight:'
@@ -635,7 +636,9 @@ const ProductDetails = () => {
                         ? 'Volume Pricing:'
                         : product.pricingTiers[0].pricePerUnit !== undefined
                           ? 'Volume Pricing:'
-                          : 'Volume Pricing:'}
+                          : product.pricingTiers[0].pricePerKg !== undefined
+                            ? 'Volume Pricing:'
+                            : 'Volume Pricing:'}
                 </p>
                 {/* Weight-based pricing (seafood) */}
                 {product.pricingTiers[0].minWeight !== undefined && product.pricingTiers.map((tier, index) => (
@@ -659,6 +662,18 @@ const ProductDetails = () => {
                 {product.pricingTiers[0].pricePerTon !== undefined && product.pricingTiers.map((tier, index) => (
                   <p key={index} className="text-gray-700 text-xs mb-1">
                     {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} tons: <span className="font-semibold text-teal-700">{tier.pricePerTon}</span>
+                  </p>
+                ))}
+                {/* Per unit pricing (for products like Tilapia) */}
+                {product.pricingTiers[0].pricePerUnit !== undefined && product.pricingTiers.map((tier, index) => (
+                  <p key={index} className="text-gray-700 text-xs mb-1">
+                    {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} units: <span className="font-semibold text-teal-700">{tier.pricePerUnit}</span>
+                  </p>
+                ))}
+                {/* Per kg pricing (for products like Tilapia) */}
+                {product.pricingTiers[0].pricePerKg !== undefined && product.pricingTiers.map((tier, index) => (
+                  <p key={index} className="text-gray-700 text-xs mb-1">
+                    {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} kg: <span className="font-semibold text-teal-700">{tier.pricePerKg}</span>
                   </p>
                 ))}
                 {product.pricingTiers[0].minWeight !== undefined && (
