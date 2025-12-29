@@ -10489,32 +10489,28 @@
             "offerPrice": "$5,800.00",
             "pricingTiers": [
               {
-                "size": "26/30",
-                "pricePerKg": "$5.70"
+                "size": "4/6 (Very Large)",
+                "pricePerTon": "$10,000.00"
               },
               {
-                "size": "31/40",
-                "pricePerKg": "$5.80"
+                "size": "6/8",
+                "pricePerTon": "$9,750.00"
               },
               {
-                "size": "41/50",
-                "pricePerKg": "$5.80"
+                "size": "8/12",
+                "pricePerTon": "$8,250.00"
               },
               {
-                "size": "51/60",
-                "pricePerKg": "$5.70"
+                "size": "13/15",
+                "pricePerTon": "$6,950.00"
               },
               {
-                "size": "61/70",
-                "pricePerKg": "$5.55"
+                "size": "16/20",
+                "pricePerTon": "$6,450.00"
               },
               {
-                "size": "71/90",
-                "pricePerKg": "$5.50"
-              },
-              {
-                "size": "91/120",
-                "pricePerKg": "$5.40"
+                "size": "U/5 (Extra Huge)",
+                "pricePerTon": "$6,450.00"
               }
             ],
             "customizationOptions": [
