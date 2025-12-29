@@ -393,7 +393,7 @@ const ProductDetails = () => {
               <img
                 src={selectedImage || product.image}
                 alt={product.name}
-                className="w-full h-auto max-h-80 object-contain mb-4 transition-transform duration-300 border border-gray-200 rounded-lg"
+                className="w-full h-auto max-h-80 object-contain mb-2 transition-transform duration-300 border border-gray-200 rounded-lg"
               />
               <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               </div>
@@ -409,7 +409,7 @@ const ProductDetails = () => {
                     onClick={() => {
                       setSelectedImage(img);
                     }}
-                    className={`h-12 border-2 rounded ${
+                    className={`h-10 border-2 rounded ${
                       selectedImage === img
                         ? "border-amber-400"
                         : "border-gray-300 opacity-50"
@@ -592,8 +592,8 @@ const ProductDetails = () => {
             )}          
          </div>
 
-          {/* Right: Purchase Box */}
-          <div className="lg:w-1/4 bg-white text-gray-800 p-4 rounded-lg shadow-lg border border-gray-200 h-[300px]">
+          {/* Right: Purchase Box (auto height, content grows) */}
+          <div className="lg:w-1/4 bg-white text-gray-800 p-4 rounded-lg shadow-lg border border-gray-200 flex flex-col">
             <div className="mb-4">
               {/* Updated Price Display */}
               {product.price && product.offerPrice ? (
@@ -675,7 +675,7 @@ const ProductDetails = () => {
               </p>
             )}
 
-            {/* Quantity Selector */}
+            {/* Quantity Selector and Add to Cart inside purchase box */}
             <div className="mb-4">
               <label className="text-gray-600 text-sm mb-2 block">Quantity:</label>
               <div className="flex items-center gap-3">
@@ -700,13 +700,10 @@ const ProductDetails = () => {
                 </button>
               </div>
             </div>
-            
-            {/* Add to Cart Button */}
             <button
               onClick={() => {
                 const priceStr = product.offerPrice || product.price || "0";
                 const priceNum = parseFloat(priceStr.replace(/[^0-9.]/g, ""));
-                
                 // Extract MOQ from product attributes with unit
                 let moqValue = 50;
                 let moqUnit = "units";
@@ -719,7 +716,6 @@ const ProductDetails = () => {
                     moqUnit = moqMatch[2]; // e.g., "Tons", "tires", etc.
                   }
                 }
-                
                 addToCart({
                   id: product.id,
                   name: product.name,
