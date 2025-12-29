@@ -240,7 +240,7 @@ const CartSidebar = () => {
                           return (
                             <div className="mb-2">
                               <p className="text-xs text-teal-600 mb-1">
-                                Tier: {priceInfo.tierInfo}
+                                Quantity: {priceInfo.tierInfo}
                               </p>
                               <p className="text-xs text-gray-600">
                                 Unit: {priceInfo.unitPrice}
