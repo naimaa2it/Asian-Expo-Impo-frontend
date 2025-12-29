@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
@@ -630,21 +631,34 @@ const ProductDetails = () => {
                     ? 'Price by Weight:'
                     : product.pricingTiers[0].size && product.pricingTiers[0].pricePerTon
                       ? 'Volume Pricing:'
-                      : 'Volume Pricing:'}
+                      : product.pricingTiers[0].pricePerTire !== undefined
+                        ? 'Volume Pricing:'
+                        : product.pricingTiers[0].pricePerUnit !== undefined
+                          ? 'Volume Pricing:'
+                          : 'Volume Pricing:'}
                 </p>
+                {/* Weight-based pricing (seafood) */}
                 {product.pricingTiers[0].minWeight !== undefined && product.pricingTiers.map((tier, index) => (
                   <p key={index} className="text-gray-700 text-xs mb-1">
                     {tier.minWeight}-{tier.maxWeight}g: <span className="font-semibold text-teal-700">{tier.pricePerKg}</span>
                   </p>
                 ))}
+                {/* Size-based pricing (Shrimp) */}
                 {product.pricingTiers[0].size && product.pricingTiers[0].pricePerTon && product.pricingTiers.map((tier, index) => (
                   <p key={index} className="text-gray-700 text-xs mb-1">
                     Size({tier.size}) - price(<span className="font-semibold text-teal-700">{tier.pricePerTon}</span>)
                   </p>
                 ))}
+                {/* Tire-based pricing (truck tires) */}
                 {product.pricingTiers[0].pricePerTire !== undefined && product.pricingTiers.map((tier, index) => (
                   <p key={index} className="text-gray-700 text-xs mb-1">
                     {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} tires: <span className="font-semibold text-teal-700">{tier.pricePerTire}</span>
+                  </p>
+                ))}
+                {/* Ton-based pricing (wood pellets, onion) */}
+                {product.pricingTiers[0].pricePerTon !== undefined && product.pricingTiers.map((tier, index) => (
+                  <p key={index} className="text-gray-700 text-xs mb-1">
+                    {tier.minQuantity}{tier.maxQuantity ? `-${tier.maxQuantity}` : '+'} tons: <span className="font-semibold text-teal-700">{tier.pricePerTon}</span>
                   </p>
                 ))}
                 {product.pricingTiers[0].minWeight !== undefined && (
