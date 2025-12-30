@@ -220,8 +220,8 @@ const ProductList = ({ category, subcategory, selectedBrand, isHomePage = false 
                   className="px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors font-medium"
                 >
                   {isHomePage 
-                    ? `View All ${filteredProducts.length} Products →` 
-                    : `See All ${filteredProducts.length} Products`}
+                    ? `View All  Products →` 
+                    : `See All  Products`}
                 </button>
               </div>
             )}

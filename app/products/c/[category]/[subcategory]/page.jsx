@@ -253,10 +253,7 @@ const SubcategoryPage = () => {
               <span className="mr-3 text-3xl">{category?.icon}</span>
               {subcategory?.name}
             </h1>
-            <p className="text-gray-600 mt-2">
-              {subcategory?.products?.length || 0} products available
-              {selectedBrand && ` in ${selectedBrand}`}
-            </p>
+            
           </div>
 
           {uniqueBrands.length > 0 && (
