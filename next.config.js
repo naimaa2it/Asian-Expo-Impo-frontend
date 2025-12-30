@@ -2,7 +2,7 @@
 const nextConfig = {
   // Removed "output: export" to enable dynamic routing
   // If you need static export, you'll need a different approach for dynamic product pages
-  // output: 'export',
+  output: 'export',
   reactStrictMode: true,
   
   // Image optimization configuration
